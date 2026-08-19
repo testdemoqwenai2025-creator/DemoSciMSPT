@@ -1,0 +1,156 @@
+{
+  "startup": "SD-T-03",
+  "papers": [
+    {
+      "source": "crossref",
+      "id": "10.1038/s41467-025-63408-z",
+      "title": "Nonreciprocal quantum synchronization",
+      "authors": "Deng-Gao Lai, Adam Miranowicz, Franco Nori",
+      "author_list": [
+        "Deng-Gao Lai",
+        "Adam Miranowicz",
+        "Franco Nori"
+      ],
+      "venue": "Nature Communications",
+      "year": "2025",
+      "doi": "10.1038/s41467-025-63408-z",
+      "doi_url": "https://doi.org/10.1038/s41467-025-63408-z",
+      "url": "https://doi.org/10.1038/s41467-025-63408-z",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "abstract": "",
+      "tldr": "",
+      "citation_count": 9,
+      "influential_citation_count": 0,
+      "reference_count": 90,
+      "is_open_access": false,
+      "open_access_pdf": "",
+      "fields_of_study": [],
+      "publisher": "Springer Science and Business Media LLC",
+      "is_seed": true,
+      "relevance_reason": "Cited by ScienceDaily article (the original research signal)"
+    },
+    {
+      "source": "arxiv",
+      "id": "2406.03357v2",
+      "title": "Nonreciprocal Synchronization of Active Quantum Spins",
+      "authors": "Tobias Nadolny, Christoph Bruder, Matteo Brunelli",
+      "author_list": [
+        "Tobias Nadolny",
+        "Christoph Bruder",
+        "Matteo Brunelli"
+      ],
+      "venue": "arXiv [quant-ph, cond-mat.stat-mech, nlin.PS]",
+      "year": "2024",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2406.03357v2",
+      "arxiv_id": "2406.03357v2",
+      "pubmed_id": "",
+      "abstract": "Active agents are capable of exerting nonreciprocal forces upon one another. For instance, one agent, say $A$, may attract another agent $B$ while $B$ repels $A$. These antagonistic nonreciprocal interactions have been extensively studied in classical systems, revealing a wealth of exciting phenomena such as novel phase transitions and traveling-wave states. Whether these phenomena can originate in quantum many-body systems is an open issue, and proposals for their realization are lacking. In this work, we present a model of two species of quantum spins that interact in an antagonistic nonreciprocal way of the attraction-repulsion type. We propose an implementation based on two atomic ensembles coupled via chiral waveguides featuring both braided and non-braided geometries. The spins are active due to the presence of local gain, which allows them to synchronize. In the thermodynamic limit, we show that nonreciprocal interactions result in a nonreciprocal phase transition to time-crystalline traveling-wave states, associated with spontaneous breaking of parity-time symmetry. We establish how this symmetry emerges from the microscopic quantum model. For a finite number of spins, signatures of the time-crystal phase can still be identified by inspecting equal-time or two-time correlation functions. Remarkably, continuous monitoring of the output field of the waveguides induces a quantum traveling-wave state: a time-crystalline state of a finite-size quantum system, in which parity-time symmetry is spontaneously broken. Our work lays the foundation to explore nonreciprocal interactions in active quantum matter.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2406.03357v2",
+      "fields_of_study": [
+        "quant-ph",
+        "cond-mat.stat-mech",
+        "nlin.PS"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2504.02742v2",
+      "title": "Quantum synchronization blockade induced by nonreciprocal coupling",
+      "authors": "Tobias Kehrer, Christoph Bruder",
+      "author_list": [
+        "Tobias Kehrer",
+        "Christoph Bruder"
+      ],
+      "venue": "arXiv [quant-ph, nlin.PS]",
+      "year": "2025",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2504.02742v2",
+      "arxiv_id": "2504.02742v2",
+      "pubmed_id": "",
+      "abstract": "Recently, the synchronization of coupled quantum oscillators has attracted a great deal of interest. Synchronization requires driven constituents, and in such systems, the coupling can be designed to be nonreciprocal. Nonreciprocally coupled oscillators exhibit a rich variety of behavior including active traveling-wave-type states. In this work, we study the interplay of three competing synchronization mechanisms in a setup of two nonreciprocally coupled quantum van der Pol oscillators. One of the oscillators is driven externally which induces phase locking. A dissipative interaction leads to antiphase locking, whereas a coherent interaction nurtures bistable phase locking and active states. We approximate the phase diagram of the quantum case by evaluating the synchronization measure of a perturbation expansion of the steady state. Effective unidirectional interactions lead to synchronization blockades between the undriven oscillator and the external drive as well as between both oscillators. Furthermore, we study the phase diagrams of two and three oscillators in the mean-field limit and find highly nontrivial active states.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2504.02742v2",
+      "fields_of_study": [
+        "quant-ph",
+        "nlin.PS"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2105.13525v1",
+      "title": "Implementation and enhancement of nonreciprocal quantum synchronization with strong isolation in antiferromagnet-cavity systems",
+      "authors": "Zhi-Bo Yang, Hong-Yu Liu, Rong-Can Yang",
+      "author_list": [
+        "Zhi-Bo Yang",
+        "Hong-Yu Liu",
+        "Rong-Can Yang"
+      ],
+      "venue": "arXiv [quant-ph]",
+      "year": "2021",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2105.13525v1",
+      "arxiv_id": "2105.13525v1",
+      "pubmed_id": "",
+      "abstract": "Sensitive signal detection and processing in classical world, especially in quantum regime, require nonreciprocal manipulation. In this paper we show how to achieve nonreciprocal quantum synchronization for two magnon modes in a two-sublattice antiferromagnet with strong isolation.The antiferromagnet is trapped in a cavity with two posts so that the two magnon modes not only couple to each other through a parametric-type interaction, but also interact with a same cavity respectively in a beam splitter-type and parametric-type ways. Under the condition of system's stability, we show that nonreciprocal quantum synchronization between two magnon modes is mainly dependent on resonance frequency of the cavity caused by direction of input currents. In addition,quantum synchronization is enhanced by the increase of interaction strength between two Bogoliubov modes and cavity mode. Moreover, numerical simulation results with parameters commonly used in current experiments show that the present scheme may be feasible.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2105.13525v1",
+      "fields_of_study": [
+        "quant-ph"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    }
+  ],
+  "field_metrics": {
+    "paper_count": 4,
+    "avg_citation_count": 2,
+    "max_citation_count": 9,
+    "field_momentum_pct": 50,
+    "top_venues": [
+      "Nature Communications",
+      "arXiv [quant-ph, cond-mat.stat-mech, nlin.PS]",
+      "arXiv [quant-ph, nlin.PS]"
+    ],
+    "arxiv_coverage_pct": 75,
+    "publisher_diversity": 2,
+    "newest_year": "2025",
+    "oldest_year": "2021",
+    "seed_citation_count": 9
+  },
+  "source_article": {
+    "id": "SD-T-a981443df203",
+    "title": "One-way quantum synchronization could make quantum computers more reliable",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+    "summary": "Scientists at RIKEN have proposed a new way to make quantum systems synchronize in only one direction—like a one-way street for sound particles known as phonons. The breakthrough combines two quantum effects to create a form of one-way quantum synchronization that remains surprisingly stable even when exposed to manufacturing flaws and environmental noise, two major obstacles that have long hindered real-world quantum technologies.",
+    "pub_date_raw": "Fri, 12 Jun 2026 02:05:41 EDT",
+    "pub_date_iso": "2026-06-12T02:05:41Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+    "source_feed": "computers_math",
+    "scimspt_axis": "T"
+  }
+}

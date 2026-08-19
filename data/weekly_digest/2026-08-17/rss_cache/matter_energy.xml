@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Matter &amp; Energy News -- ScienceDaily</title>
+		<link>https://www.sciencedaily.com/news/matter_energy/</link>
+		<description>Detectors and electronics. Learn about every sort of detector, radar system and more from leading research institutes around the world.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 17 Aug 2026 04:21:40 EDT</pubDate>
+		<lastBuildDate>Mon, 17 Aug 2026 04:21:40 EDT</lastBuildDate>
+		<ttl>60</ttl>
+		<image>
+			<title>Matter &amp; Energy News -- ScienceDaily</title>
+			<url>https://www.sciencedaily.com/images/scidaily-logo-rss.png</url>
+			<link>https://www.sciencedaily.com/news/matter_energy/</link>
+			<description>For more science news, visit ScienceDaily.</description>
+		</image>
+		<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="https://www.sciencedaily.com/rss/matter_energy.xml" type="application/rss+xml" />
+		<item>
+			<title>Physicists discover a hidden gluon structure inside protons that could rewrite textbooks</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260815064805.htm</link>
+			<description>Physicists may have uncovered a hidden feature inside protons that helps preserve one of matter’s most fundamental properties. RHIC collision data suggest baryon number is carried not simply by three quarks, but by a Y-shaped junction of the gluons connecting them. The finding challenges a decades-old textbook picture and could deepen our understanding of why protons—and ultimately matter itself—remain stable.</description>
+			<pubDate>Sun, 16 Aug 2026 05:55:45 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260815064805.htm</guid>
+		</item>
+		<item>
+			<title>Tiny graphene wrinkles create surprisingly powerful electrical effects</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260815064801.htm</link>
+			<description>Scientists have discovered that tiny, sharply curved wrinkles in graphene can dramatically alter its electrical behavior, creating surprisingly strong charge separation. The finding suggests future electronics could be tuned by reshaping materials at the atomic scale instead of changing what they’re made of.</description>
+			<pubDate>Sun, 16 Aug 2026 22:28:23 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260815064801.htm</guid>
+		</item>
+		<item>
+			<title>World’s first superconducting quantum heat engine could help unlock massive quantum computers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260814011041.htm</link>
+			<description>A tiny superconducting engine has successfully converted heat near absolute zero into useful work, demonstrating the first cyclic quantum heat engine of its kind. Future versions could operate autonomously inside quantum computers, potentially eliminating huge numbers of costly, noise-producing microwave cables.</description>
+			<pubDate>Fri, 14 Aug 2026 08:56:01 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260814011041.htm</guid>
+		</item>
+		<item>
+			<title>Scientists detect a nuclear reactor’s ghostly afterglow for the first time</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260814011036.htm</link>
+			<description>Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown. Researchers have now detected that residual signal for the first time, finding it closely matched predictions of radioactive decay inside the reactor and nearby spent-fuel pools. The breakthrough suggests antineutrino detectors could eventually monitor reactors even when they are offline.</description>
+			<pubDate>Fri, 14 Aug 2026 09:16:36 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260814011036.htm</guid>
+		</item>
+		<item>
+			<title>A strange crystal made of electrons just revealed its hidden motion</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260812015156.htm</link>
+			<description>Physicists have found a new way to peer inside one of matter’s most elusive quantum states: the Wigner crystal, where electrons stop behaving like independent particles and organize into a crystal-like pattern. By shining light on an atomically thin material cooled close to absolute zero, researchers uncovered optical signals that reveal not just where the electrons are, but how they move together.</description>
+			<pubDate>Wed, 12 Aug 2026 05:10:01 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260812015156.htm</guid>
+		</item>
+		<item>
+			<title>Ordinary WiFi can now identify you with near-perfect accuracy</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260811052857.htm</link>
+			<description>Ordinary WiFi networks could quietly become powerful surveillance tools, allowing people to be identified without cameras, special sensors, or even carrying a connected device. Researchers showed that unencrypted signals routinely exchanged between WiFi devices and routers can be used to create radio-based images of people and recognize them within seconds. In tests involving 197 participants, the system identified individuals with nearly 100% accuracy, even from different angles and regardless of how they walked.</description>
+			<pubDate>Wed, 12 Aug 2026 00:07:22 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260811052857.htm</guid>
+		</item>
+		<item>
+			<title>“Cannot be explained” – New super steel stuns scientists</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260811052717.htm</link>
+			<description>Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.</description>
+			<pubDate>Tue, 11 Aug 2026 08:59:40 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260811052717.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover a hidden switch inside silver nanocatalysts</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260810015714.htm</link>
+			<description>Silver nanocatalysts have been found to switch where they perform their most important reactions depending on whether a solid oxide cell is making electricity or hydrogen. The discovery could enable smarter catalyst designs that boost clean power generation while making green hydrogen more energy-efficient.</description>
+			<pubDate>Mon, 10 Aug 2026 08:27:30 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260810015714.htm</guid>
+		</item>
+		<item>
+			<title>Chemists set electrons free and break a decades-old chemistry barrier</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260807035147.htm</link>
+			<description>Chemists have developed a catalyst that breaks a long-standing rule governing which molecules receive electrons during chemical reactions. By releasing electrons directly into solution, the technique could unlock reactions—and potentially useful new molecules—that were previously out of reach.</description>
+			<pubDate>Sun, 09 Aug 2026 07:02:03 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260807035147.htm</guid>
+		</item>
+		<item>
+			<title>New fuel cell breakthrough could help power energy-hungry data centers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260807035140.htm</link>
+			<description>A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient. The breakthrough could help hydrogen fuel cells become a more practical way to power data centers, vehicles, and other energy-intensive technologies.</description>
+			<pubDate>Sat, 08 Aug 2026 10:09:02 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260807035140.htm</guid>
+		</item>
+		<item>
+			<title>Sunlight creates quantum entanglement once thought to require lasers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260807035133.htm</link>
+			<description>Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing.</description>
+			<pubDate>Fri, 07 Aug 2026 23:49:26 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260807035133.htm</guid>
+		</item>
+		<item>
+			<title>This tiny gold crystal could bring quantum technology out of the deep freeze</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260806050706.htm</link>
+			<description>Scientists have created the first quantum material that can sort and transport different quantum states of light at room temperature, potentially removing the need for bulky, ultra-cold refrigeration systems. Built from a gold film carved with hundreds of microscopic structures, the ultrathin “metacrystal” acts like a filter that directs different kinds of quantum light along separate paths while preserving the information they carry.</description>
+			<pubDate>Sat, 08 Aug 2026 09:17:32 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260806050706.htm</guid>
+		</item>
+		<item>
+			<title>UCLA scientists discover how to guide heat like light at room temperature</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260805082506.htm</link>
+			<description>Scientists have demonstrated that heat can move through a crystal in focused, wave-like rays at room temperature instead of spreading randomly. The breakthrough could make it possible to route heat around sensitive parts of next-generation chips and quantum devices.</description>
+			<pubDate>Fri, 07 Aug 2026 08:22:48 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260805082506.htm</guid>
+		</item>
+		<item>
+			<title>A colossal magma system has been hiding beneath Tuscany</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260804034645.htm</link>
+			<description>A massive magma reservoir has been detected deep beneath Tuscany, despite showing no obvious signs at the surface. Scientists mapped the roughly 6,000-cubic-kilometer body using natural ground vibrations recorded by dozens of seismic sensors. It poses no immediate danger, but the discovery reveals how enormous volcanic systems can remain hidden and could transform the search for geothermal energy and critical minerals.</description>
+			<pubDate>Wed, 05 Aug 2026 05:19:43 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260804034645.htm</guid>
+		</item>
+		<item>
+			<title>Cell-inspired nanoreactor turns sunlight into hydrogen peroxide</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260804034642.htm</link>
+			<description>A new hollow nanoreactor mimics living cells to make hydrogen peroxide more efficiently using visible light. Its light-trapping cavity and proton-shuttling shell could open new possibilities for cleaner chemical manufacturing and artificial photosynthesis.</description>
+			<pubDate>Thu, 06 Aug 2026 08:03:02 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260804034642.htm</guid>
+		</item>
+		<item>
+			<title>This hydrogen turbine turns controlled explosions into electricity</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260803080919.htm</link>
+			<description>Scientists have successfully generated electricity with a hydrogen turbine that produces its own pressure through detonation waves instead of relying on a mechanical compressor. The breakthrough could unlock dramatically more efficient power systems for clean energy and future aviation.</description>
+			<pubDate>Tue, 04 Aug 2026 09:02:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260803080919.htm</guid>
+		</item>
+		<item>
+			<title>Scientists reveal the hidden force driving the universe’s hottest fluid</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260802223422.htm</link>
+			<description>When atomic nuclei smash together at nearly the speed of light, they create the hottest fluid in the universe, but scientists may have overlooked one of its most important forces. New simulations reveal that extreme acceleration builds up along the edges of quark-gluon plasma, helping drive its explosive expansion. This acceleration may do far more than move the fluid, potentially changing its temperature-like behavior, influencing particle spins, and even reshaping how matter transitions between fundamental states.</description>
+			<pubDate>Mon, 03 Aug 2026 07:58:59 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260802223422.htm</guid>
+		</item>
+		<item>
+			<title>Scientists just 3D printed one of the hardest metals on Earth</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260801094053.htm</link>
+			<description>A new 3D printing technique can produce exceptionally hard tungsten carbide cobalt while using less of its expensive raw materials. By softening rather than fully melting the material, researchers created defect-free samples with industrial-grade hardness and opened the door to more efficient manufacturing.</description>
+			<pubDate>Tue, 04 Aug 2026 03:08:28 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260801094053.htm</guid>
+		</item>
+		<item>
+			<title>Scientists twist crystal layers and reshape matter from within</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260801042819.htm</link>
+			<description>Researchers have found a way to build much larger “twisted” oxide materials while precisely controlling how their atomic layers line up. Because these materials can be made over large areas and transferred onto different surfaces, the technique could help turn twistronics from a laboratory curiosity into a practical platform for next-generation electronics.</description>
+			<pubDate>Mon, 03 Aug 2026 00:36:48 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260801042819.htm</guid>
+		</item>
+		<item>
+			<title>Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260731034150.htm</link>
+			<description>Scientists have identified LHAASO J1912+1014u as a cosmic accelerator that can push protons beyond one quadrillion electron volts. The finding may help reveal where the Milky Way’s most energetic cosmic rays come from and how they influence the galaxy.</description>
+			<pubDate>Sat, 01 Aug 2026 22:59:35 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260731034150.htm</guid>
+		</item>
+		<item>
+			<title>World-first photonic time crystal opens a new era of light control</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260731034131.htm</link>
+			<description>Scientists have built the first all-optical photonic time crystal, allowing them to reshape the behavior of terahertz light at extraordinary speeds. The breakthrough could open the door to ultrafast computing, smarter communication systems, advanced imaging, and a new generation of highly tunable lasers.</description>
+			<pubDate>Fri, 31 Jul 2026 05:13:30 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260731034131.htm</guid>
+		</item>
+		<item>
+			<title>This new alloy is up to 10 times stronger than steel and surprisingly flexible</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260729051524.htm</link>
+			<description>Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking. Their nanoscale design produced a yield strength about six to 10 times greater than high-strength structural steel while sustaining substantial deformation at room temperature. The approach could enable tougher turbine blades and higher-performance engines.</description>
+			<pubDate>Thu, 30 Jul 2026 23:55:22 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260729051524.htm</guid>
+		</item>
+		<item>
+			<title>New process turns plastic waste into hydrogen fuel while trapping the carbon</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260729051521.htm</link>
+			<description>A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first. The technique operates at much lower temperatures than traditional gasification and captures most of the plastic’s carbon in solid or liquid forms instead of releasing it as carbon dioxide.</description>
+			<pubDate>Fri, 31 Jul 2026 08:46:18 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260729051521.htm</guid>
+		</item>
+		<item>
+			<title>Scientists left water inside a battery and nearly doubled its power</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260729043937.htm</link>
+			<description>A surprisingly simple change could make sodium-ion batteries far more powerful while opening the door to turning seawater into drinking water. Researchers at the University of Surrey found that sodium vanadium oxide performs much better when its naturally occurring water is left inside instead of being removed during manufacturing.</description>
+			<pubDate>Sat, 01 Aug 2026 06:41:53 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260729043937.htm</guid>
+		</item>
+		<item>
+			<title>Ultrafast X-rays capture chemistry unfolding atom by atom</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260729010726.htm</link>
+			<description>Ultrafast X-rays revealed how a molecule converts absorbed light into motion in just trillionths of a second. Individual atoms recorded different stages of the process, opening a powerful new window into light-driven chemistry.</description>
+			<pubDate>Wed, 29 Jul 2026 22:18:28 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260729010726.htm</guid>
+		</item>
+		<item>
+			<title>Strange gamma rays could reveal how stars forge heavy elements</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260727214623.htm</link>
+			<description>Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus. The breakthrough could improve models of how stars, supernovae, and neutron star mergers create heavy elements.</description>
+			<pubDate>Fri, 31 Jul 2026 01:15:53 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260727214623.htm</guid>
+		</item>
+		<item>
+			<title>Twisted laser light can tell mirror-image molecules apart</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260727214557.htm</link>
+			<description>Scientists have created twisted laser beams that interact differently with right-handed and left-handed molecules, revealing their identity through the fragments they produce. The approach could provide a faster, simpler, and more sensitive way to analyze important molecules used in chemistry and pharmaceuticals.</description>
+			<pubDate>Tue, 28 Jul 2026 00:18:08 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260727214557.htm</guid>
+		</item>
+		<item>
+			<title>A strange quantum rule caps electrical resistance</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260727012139.htm</link>
+			<description>Physicists have uncovered a surprising limit to electrical resistance caused by particles colliding. Using ultracold potassium atoms trapped in a grid of light, researchers created a highly controlled stand-in for electrons moving through a solid. As collisions became more frequent and intense, resistance initially rose, but eventually hit a ceiling and stopped increasing.</description>
+			<pubDate>Thu, 30 Jul 2026 23:30:04 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260727012139.htm</guid>
+		</item>
+		<item>
+			<title>A tiny molecular basket unlocks a powerful new kind of chemistry</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260724061452.htm</link>
+			<description>Rice University chemists have found a new way to make neodymium, a rare-earth metal, interact with oxygen. Using a specially designed molecular structure described as a “basket,” the team positioned the atoms so they could form a bond once thought unlikely. The breakthrough produced highly reactive compounds that could eventually give chemists alternatives to iron-based molecules used in biological reactions and chemical manufacturing.</description>
+			<pubDate>Wed, 29 Jul 2026 07:47:05 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260724061452.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover the Sun contains 55% more silver than expected</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260723084049.htm</link>
+			<description>A new analysis suggests the Sun holds far more silver than earlier estimates indicated. More advanced models of the solar atmosphere raised the calculated amount by 55 percent, bringing it into much closer agreement with ancient meteorites. The technique may also help scientists track the cosmic origins of silver and other heavy elements.</description>
+			<pubDate>Fri, 24 Jul 2026 21:55:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260723084049.htm</guid>
+		</item>
+		<item>
+			<title>A strange quantum effect dramatically boosts energy transfer</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260722032130.htm</link>
+			<description>Researchers discovered a proton-assisted mechanism that greatly improves how triplet energy moves between quantum dots and nearby molecules. The proton briefly shifts position, helps coordinate electron movement, and then returns to where it started. This quantum-driven shuttle could offer a powerful new way to tune solar cells, lasers, and catalytic reactions.</description>
+			<pubDate>Wed, 22 Jul 2026 08:17:00 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260722032130.htm</guid>
+		</item>
+		<item>
+			<title>New quantum gravity theory links entropy, dark energy, and life</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260719035947.htm</link>
+			<description>A new theoretical study offers a possible explanation for how the Universe can grow more complex without violating the second law of thermodynamics. Using a quantum gravity framework called Gravity from Entropy, mathematician Ginestra Bianconi found that the Universe’s total entropy may rise as space expands, even while entropy within each unit of volume falls. That decline could leave room for galaxies, stars, planets, and life to form locally amid an overall increase in cosmic entropy.</description>
+			<pubDate>Mon, 20 Jul 2026 22:40:55 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260719035947.htm</guid>
+		</item>
+		<item>
+			<title>A tiny universe in a bottle reveals clues to the origins of life</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260718010156.htm</link>
+			<description>Researchers have created cosmic dust from scratch by recreating space-like conditions inside glass tubes. The dust contains complex carbon-rich molecules built from elements essential to life and produces infrared signals similar to real material found in space. By studying these laboratory samples, scientists can explore how organic chemistry unfolds around stars and how comets, asteroids and meteorites may have carried those ingredients to Earth.</description>
+			<pubDate>Sun, 19 Jul 2026 09:10:21 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260718010156.htm</guid>
+		</item>
+		<item>
+			<title>New programmable photonic chip can control how fast light moves</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260718010149.htm</link>
+			<description>Scientists have created a programmable optical chip that can slow light on demand, giving engineers far greater control over how optical signals propagate through a circuit. The technology could provide the delays, synchronization, and buffering functions needed to make light-based computing more practical. A single chip could eventually perform several tasks that currently require separate devices, potentially reducing energy use, cost, and complexity in AI servers and data centers.</description>
+			<pubDate>Tue, 21 Jul 2026 22:43:34 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260718010149.htm</guid>
+		</item>
+		<item>
+			<title>Scientists found two powerful new ways to destroy forever chemicals</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260718010147.htm</link>
+			<description>Scientists are testing two promising ways to destroy PFAS, the stubborn “forever chemicals” that can accumulate in water and resist normal treatment. One method uses collapsing vapor bubbles to generate extreme heat and reactive molecules, while the other uses cold plasma and rising gas bubbles to pull PFAS to the surface and break them apart.</description>
+			<pubDate>Sun, 19 Jul 2026 22:31:21 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260718010147.htm</guid>
+		</item>
+		<item>
+			<title>Scientists built a camera that can track invisible particles in 3D</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260716023610.htm</link>
+			<description>A new particle detector called PLATON could replace millions of tiny detector components with a single block of light-producing material. Using a light-field camera, highly sensitive photon sensors, and AI, it reconstructs particle paths in fast, detailed 3D. Simulations suggest it could match or surpass today’s best detectors while being far easier to scale. The technology may also lead to sharper PET medical scans.</description>
+			<pubDate>Fri, 17 Jul 2026 02:04:57 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260716023610.htm</guid>
+		</item>
+		<item>
+			<title>NASA’s James Webb catches a supermassive black hole feeding</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260716023601.htm</link>
+			<description>JWST has captured unusually detailed images of gas feeding the supermassive black hole at the center of NGC 4696. A vast filament appears to funnel material into an 800-light-year-wide spinning disk, where gas races around at up to 600 kilometers per second. The findings suggest black holes may recycle their own fuel by heating gas with jets and later drawing the cooled material back in.</description>
+			<pubDate>Fri, 17 Jul 2026 23:09:35 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260716023601.htm</guid>
+		</item>
+		<item>
+			<title>New “living plastic” self-destructs in just 6 days without leaving microplastics</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260715083552.htm</link>
+			<description>Researchers have created self-destructing living plastic that uses engineered bacteria to completely break itself down when activated. The material degrades in just six days without creating microplastics, offering a potential new solution for single-use plastic waste.</description>
+			<pubDate>Thu, 16 Jul 2026 23:09:42 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260715083552.htm</guid>
+		</item>
+		<item>
+			<title>“Silly sprinklers” help scientists finally solve Feynman’s famous sprinkler mystery</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260715083535.htm</link>
+			<description>A team of mathematicians used whimsical &quot;silly sprinklers&quot; to solve a physics mystery that has puzzled scientists for decades. Their experiments showed that the rotation of both normal and reverse sprinklers is driven by the momentum of flowing water, not by the outside water flow or other long-standing theories. The results finally provide a clear answer to Feynman’s famous sprinkler problem. They could also help engineers design more efficient fluid-powered machines.</description>
+			<pubDate>Fri, 17 Jul 2026 09:58:52 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260715083535.htm</guid>
+		</item>
+		<item>
+			<title>Quantum breakthrough links light and magnetism in atomically thin materials</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260715083523.htm</link>
+			<description>A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible. In these materials, light-generated excitons can interact directly with magnetic behavior, creating opportunities to control magnetic states using light alone. Scientists believe this could pave the way for advanced optical memory, quantum devices, and ultra-efficient photonic technologies.</description>
+			<pubDate>Thu, 16 Jul 2026 00:16:48 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260715083523.htm</guid>
+		</item>
+		<item>
+			<title>Physicists say quantum mechanics may not need imaginary numbers after all</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713000807.htm</link>
+			<description>Physicists from Heinrich Heine University Düsseldorf (HHU) have examined a fundamental property of quantum mechanics in collaboration with the German Aerospace Center (DLR). In the scientific journal Physical Review Letters, they show that this theory does not necessarily need to be formulated with imaginary numbers – real numbers can in fact also be used. The American Physical Society has also dedicated a “Highlight” to these findings in its Physics Magazine.</description>
+			<pubDate>Mon, 13 Jul 2026 03:22:08 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713000807.htm</guid>
+		</item>
+		<item>
+			<title>Stephen Hawking&#039;s black hole laws just got a major upgrade</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713000757.htm</link>
+			<description>Scientists have developed a new framework that could finally apply the laws of thermodynamics to real, ever-changing black holes instead of only perfectly stable ones. The advance may improve our understanding of black hole mergers, evaporation, and the powerful gravitational wave events detected by observatories like LIGO.</description>
+			<pubDate>Mon, 13 Jul 2026 06:41:43 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713000757.htm</guid>
+		</item>
+		<item>
+			<title>A 200-year-old physics experiment could help build future computers</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713000755.htm</link>
+			<description>Scientists at Nanyang Technological University in Singapore have discovered a surprisingly simple way to create exotic light structures called optical skyrmions using a 200-year-old optical effect known as the Poisson spot. Instead of relying on expensive, highly engineered materials, they simply shine a laser at a tiny circular disc, producing stable swirling patterns in light that researchers believe could one day help power advanced data storage, communications, and computing technologies.</description>
+			<pubDate>Mon, 13 Jul 2026 08:49:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713000755.htm</guid>
+		</item>
+		<item>
+			<title>New dark matter theory could solve multiple cosmic mysteries at once</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260711010128.htm</link>
+			<description>Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking toward the centers of galaxies and lighter ones drifting outward. This simple idea could explain several puzzling cosmic observations that have frustrated astronomers for years, from unusually diffuse dwarf galaxies to surprisingly dense dark matter clumps that bend light through gravitational lensing.</description>
+			<pubDate>Mon, 13 Jul 2026 22:30:53 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260711010128.htm</guid>
+		</item>
+		<item>
+			<title>Physicists finally build a quantum material predicted more than a decade ago</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260711010123.htm</link>
+			<description>Researchers have achieved a major milestone by creating a long-sought two-dimensional quantum material and confirming its unusual conducting edge states. The ability to control these states through strain could make the material a promising platform for future room-temperature quantum electronics.</description>
+			<pubDate>Sat, 11 Jul 2026 03:03:53 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260711010123.htm</guid>
+		</item>
+		<item>
+			<title>Physicists recreate black hole energy extraction in the lab</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260711010120.htm</link>
+			<description>Researchers have recreated the physics of extracting energy from a spinning black hole using a stationary device that produces synthetic ultrafast rotation. The achievement transforms a long-standing theoretical idea into a practical experiment and could inspire new advances in optics, wireless communications, and quantum science.</description>
+			<pubDate>Sun, 12 Jul 2026 08:28:41 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260711010120.htm</guid>
+		</item>
+		<item>
+			<title>The biggest problem with solid-state batteries may finally be solved</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260710003533.htm</link>
+			<description>Researchers solved the mystery of how soft lithium dendrites crack the hard ceramic inside solid-state batteries, triggering short circuits. The breakthrough could help engineers build safer, longer-lasting batteries for smartphones, electric vehicles, and other electronics.</description>
+			<pubDate>Fri, 10 Jul 2026 08:29:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260710003533.htm</guid>
+		</item>
+		<item>
+			<title>Why gold never tarnishes has finally been explained</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260710003511.htm</link>
+			<description>Gold may have a secret self-defense system that helps it resist tarnishing. Researchers discovered that atoms on gold surfaces reorganize themselves into patterns that block oxygen from reacting with the metal, suppressing oxidation by up to a trillion-fold. Beyond explaining why gold jewelry stays bright for generations, the finding could help scientists create more powerful gold-based catalysts for manufacturing and clean energy.</description>
+			<pubDate>Sat, 11 Jul 2026 22:36:05 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260710003511.htm</guid>
+		</item>
+		<item>
+			<title>This electric field trick boosted heat flow by nearly 300%</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260709160651.htm</link>
+			<description>Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction. The unexpected result could lead to much more efficient cooling technologies and energy-saving devices.</description>
+			<pubDate>Sat, 11 Jul 2026 08:18:02 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260709160651.htm</guid>
+		</item>
+		<item>
+			<title>Heidelberg physicists just united two opposing quantum theories</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260708022154.htm</link>
+			<description>A new quantum theory bridges two rival models of how impurities behave inside many-particle systems, resolving a problem that has challenged physicists for decades. The findings could reshape experiments on ultracold atoms, semiconductors, and other exotic forms of quantum matter.</description>
+			<pubDate>Wed, 08 Jul 2026 20:15:58 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260708022154.htm</guid>
+		</item>
+		<item>
+			<title>Scientists finally solved a 150-year-old gallium mystery</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260707054119.htm</link>
+			<description>Scientists have rewritten the story of gallium after discovering that its unusual atomic bonds re-form at high temperatures, contradicting decades of accepted theory. The finding changes how researchers explain why the metal melts so easily and behaves unlike almost any other metal. Beyond solving a long-standing scientific mystery, the work could lead to advances in semiconductors, nanotechnology, and liquid metal engineering.</description>
+			<pubDate>Thu, 09 Jul 2026 03:40:57 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260707054119.htm</guid>
+		</item>
+		<item>
+			<title>Scientists used AI to crack one of water&#039;s biggest mysteries</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260707025047.htm</link>
+			<description>Water’s odd behavior becomes even more dramatic when it is supercooled, but scientists have struggled to compare the many different ways of describing its microscopic structure. Researchers at the University of Osaka used an AI model trained on computer simulations to evaluate 16 different structural descriptors. The system identified the most effective ways to distinguish between water’s two competing liquid states, providing a clearer framework for studying one of nature’s most mysterious substances.</description>
+			<pubDate>Wed, 08 Jul 2026 18:31:30 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260707025047.htm</guid>
+		</item>
+		<item>
+			<title>Incredible new material makes heat programmable</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260707025046.htm</link>
+			<description>A newly developed material can control and &quot;program&quot; heat, allowing it to direct thermal radiation, switch modes, and remember its settings without continuous power. The innovation could lead to smarter infrared sensors, better energy technologies, and memory devices that use light and heat instead of electrical charges.</description>
+			<pubDate>Tue, 07 Jul 2026 19:28:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260707025046.htm</guid>
+		</item>
+		<item>
+			<title>New research reveals the hidden pollution left behind by fireworks</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260701205009.htm</link>
+			<description>Scientists have uncovered new evidence that fireworks can pollute both the air and water in ways that extend beyond the visible smoke. The findings show that leftover debris, fine particles, and airborne chemicals may affect ecosystems and increase people&#039;s exposure to air pollution during major celebrations.</description>
+			<pubDate>Fri, 03 Jul 2026 22:48:09 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260701205009.htm</guid>
+		</item>
+		<item>
+			<title>AI just supercharged the race to find room temperature superconductors</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260701205006.htm</link>
+			<description>Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more. The technique could bring researchers significantly closer to the long-sought goal of a room-temperature superconductor.</description>
+			<pubDate>Tue, 07 Jul 2026 01:39:51 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260701205006.htm</guid>
+		</item>
+		<item>
+			<title>Schrödinger’s anthill: Quantum entanglement found in a crystal large enough to hold</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260701015242.htm</link>
+			<description>A centimeter-sized crystal has revealed clear signs of quantum entanglement, showing that large, everyday objects can display surprisingly deep quantum behavior. The discovery could help solve the mystery of strange metals while opening new possibilities for ultra-precise quantum sensors and other advanced technologies.</description>
+			<pubDate>Tue, 07 Jul 2026 20:46:06 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260701015242.htm</guid>
+		</item>
+		<item>
+			<title>A strange LIGO signal could reveal the missing link behind dark matter</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626125703.htm</link>
+			<description>An unusual gravitational wave signal has renewed hopes that primordial black holes, long considered purely theoretical, may finally be within reach of discovery. If confirmed, they could solve one of astronomy&#039;s greatest mysteries by explaining the nature of dark matter.</description>
+			<pubDate>Thu, 02 Jul 2026 23:56:36 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626125703.htm</guid>
+		</item>
+		<item>
+			<title>Scientists reveal what really happens when water is trapped in tiny spaces</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626124706.htm</link>
+			<description>A decades-old puzzle about water has finally been unraveled. Researchers found that water trapped in tiny nanoscale spaces is not inherently more reactive. Instead, the intense pressures created inside these microscopic gaps explain most of the effect, while the surrounding material can further enhance water&#039;s chemistry if it interacts with the reaction products.</description>
+			<pubDate>Wed, 01 Jul 2026 23:05:16 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626124706.htm</guid>
+		</item>
+		<item>
+			<title>Scientists create quantum sound device that could transform communications</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626030435.htm</link>
+			<description>A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.</description>
+			<pubDate>Wed, 01 Jul 2026 22:11:12 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626030435.htm</guid>
+		</item>
+		<item>
+			<title>Tiny magnetic waves could unlock quantum computers the size of a penny</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626030431.htm</link>
+			<description>A major breakthrough in quantum technology has turned magnons, tiny magnetic waves once considered too short-lived for practical use, into promising carriers of quantum information. Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself. That means future improvements could come from better manufacturing rather than entirely new discoveries.</description>
+			<pubDate>Thu, 02 Jul 2026 02:48:14 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626030431.htm</guid>
+		</item>
+	</channel>
+</rss>
+<!-- cached Mon, 17 Aug 2026 04:06:35 EDT -->

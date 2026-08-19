@@ -1,0 +1,250 @@
+{
+  "startup": "SD-P-07",
+  "papers": [
+    {
+      "source": "sciencedaily",
+      "id": "sd-unknown",
+      "title": "A hidden “switch-off” signal could predict solar storms seven years early",
+      "authors": "",
+      "author_list": [],
+      "venue": "ScienceDaily article",
+      "year": "",
+      "doi": "",
+      "doi_url": "",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260721000818.htm",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "abstract": "",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": false,
+      "open_access_pdf": "",
+      "fields_of_study": [],
+      "publisher": "",
+      "is_seed": true,
+      "relevance_reason": "ScienceDaily-cited paper (CrossRef lookup unavailable — using parsed fields)"
+    },
+    {
+      "source": "arxiv",
+      "id": "1611.08219v3",
+      "title": "The Off-Switch Game",
+      "authors": "Dylan Hadfield-Menell, Anca Dragan, Pieter Abbeel, Stuart Russell",
+      "author_list": [
+        "Dylan Hadfield-Menell",
+        "Anca Dragan",
+        "Pieter Abbeel",
+        "Stuart Russell"
+      ],
+      "venue": "arXiv [cs.AI]",
+      "year": "2016",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/1611.08219v3",
+      "arxiv_id": "1611.08219v3",
+      "pubmed_id": "",
+      "abstract": "It is clear that one of the primary tools we can use to mitigate the potential risk from a misbehaving AI system is the ability to turn the system off. As the capabilities of AI systems improve, it is important to ensure that such systems do not adopt subgoals that prevent a human from switching them off. This is a challenge because many formulations of rational agents create strong incentives for self-preservation. This is not caused by a built-in instinct, but because a rational agent will maximize expected utility and cannot achieve whatever objective it has been given if it is dead. Our goal is to study the incentives an agent has to allow itself to be switched off. We analyze a simple game between a human H and a robot R, where H can press R's off switch but R can disable the off switch. A traditional agent takes its reward function for granted: we show that such agents have an incentive to disable the off switch, except in the special case where H is perfectly rational. Our key insight is that for R to want to preserve its off switch, it needs to be uncertain about the utility associated with the outcome, and to treat H's actions as important observations about that utility. (R also has no incentive to switch itself off in this setting.) We conclude that giving machines an appropriate level of uncertainty about their objectives leads to safer designs, and we argue that this setting is a useful generalization of the classical AI paradigm of rational agents.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/1611.08219v3",
+      "fields_of_study": [
+        "cs.AI"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2502.08864v1",
+      "title": "Off-Switching Not Guaranteed",
+      "authors": "Sven Neth",
+      "author_list": [
+        "Sven Neth"
+      ],
+      "venue": "arXiv [cs.AI]",
+      "year": "2025",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2502.08864v1",
+      "arxiv_id": "2502.08864v1",
+      "pubmed_id": "",
+      "abstract": "Hadfield-Menell et al. (2017) propose the Off-Switch Game, a model of Human-AI cooperation in which AI agents always defer to humans because they are uncertain about our preferences. I explain two reasons why AI agents might not defer. First, AI agents might not value learning. Second, even if AI agents value learning, they might not be certain to learn our actual preferences.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2502.08864v1",
+      "fields_of_study": [
+        "cs.AI"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2104.14321v2",
+      "title": "Magnetic on-off switching of a plasmonic laser",
+      "authors": "Francisco Freire-Fernández, Javier Cuerda, Konstantinos S. Daskalakis, Sreekanth Perumbilavil, Jani-Petri Martikainen, Kristian Arjas, Päivi Törmä, Sebastiaan van Dijken",
+      "author_list": [
+        "Francisco Freire-Fernández",
+        "Javier Cuerda",
+        "Konstantinos S. Daskalakis",
+        "Sreekanth Perumbilavil",
+        "Jani-Petri Martikainen",
+        "Kristian Arjas",
+        "Päivi Törmä",
+        "Sebastiaan van Dijken"
+      ],
+      "venue": "arXiv [physics.optics, physics.app-ph]",
+      "year": "2021",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2104.14321v2",
+      "arxiv_id": "2104.14321v2",
+      "pubmed_id": "",
+      "abstract": "The nanoscale mode volumes of surface plasmon polaritons have enabled plasmonic lasers and condensates with ultrafast operation. Most plasmonic lasers are based on noble metals, rendering the optical mode structure inert to external fields. Here, we demonstrate active magnetic-field control over lasing in a periodic array of Co/Pt multilayer nanodots immersed in an IR-140 dye solution. We exploit the magnetic nature of the nanoparticles combined with mode tailoring to control the lasing action. Under circularly polarized excitation, angle-resolved photoluminescence measurements reveal a transition between lasing action and non-lasing emission as the nanodot magnetization is reversed. Our results introduce magnetization as a means of externally controlling plasmonic nanolasers, complementary to the modulation by excitation, gain medium, or substrate. Further, the results show how effects of magnetization on light that are inherently weak can be observed in the lasing regime, inspiring studies of topological photonics.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2104.14321v2",
+      "fields_of_study": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "1108.4118v1",
+      "title": "Switching chaos on/off in Duffing oscillator",
+      "authors": "R. Chabreyrie, N. Aubry",
+      "author_list": [
+        "R. Chabreyrie",
+        "N. Aubry"
+      ],
+      "venue": "arXiv [nlin.CD]",
+      "year": "2011",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/1108.4118v1",
+      "arxiv_id": "1108.4118v1",
+      "pubmed_id": "",
+      "abstract": "Periodic forcing of nonlinear oscillators generates a rich and complex variety of behaviors, ranging from regular to chaotic behavior. In this work we seek to control, i.e., either suppress or generate, the chaotic behavior of a classical reference example in books or introductory articles, the Duffing oscillator. For this purpose, we propose an elegant strategy consisting of simply adjusting the shape of the time-dependent forcing. The efficiency of the proposed strategy is shown analytically, numerically and experimentally. In addition due to its simplicity and low cost such a work could easily be turned into an excellent teaching tool.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/1108.4118v1",
+      "fields_of_study": [
+        "nlin.CD"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2411.17749v2",
+      "title": "The Partially Observable Off-Switch Game",
+      "authors": "Andrew Garber, Rohan Subramani, Linus Luu, Mark Bedaywi, Stuart Russell, Scott Emmons",
+      "author_list": [
+        "Andrew Garber",
+        "Rohan Subramani",
+        "Linus Luu",
+        "Mark Bedaywi",
+        "Stuart Russell",
+        "Scott Emmons"
+      ],
+      "venue": "arXiv [cs.GT, cs.AI, cs.MA]",
+      "year": "2024",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2411.17749v2",
+      "arxiv_id": "2411.17749v2",
+      "pubmed_id": "",
+      "abstract": "A wide variety of goals could cause an AI to disable its off switch because \"you can't fetch the coffee if you're dead\" (Russell 2019). Prior theoretical work on this shutdown problem assumes that humans know everything that AIs do. In practice, however, humans have only limited information. Moreover, in many of the settings where the shutdown problem is most concerning, AIs might have vast amounts of private information. To capture these differences in knowledge, we introduce the Partially Observable Off-Switch Game (PO-OSG), a game-theoretic model of the shutdown problem with asymmetric information. Unlike when the human has full observability, we find that in optimal play, even AI agents assisting perfectly rational humans sometimes avoid shutdown. As expected, increasing the amount of communication or information available always increases (or leaves unchanged) the agents' expected common payoff. But counterintuitively, introducing bounded communication can make the AI defer to the human less in optimal play even though communication mitigates information asymmetry. In particular, communication sometimes enables new optimal behavior requiring strategic AI deference to achieve outcomes that were previously inaccessible. Thus, designing safe artificial agents in the presence of asymmetric information requires careful consideration of the tradeoffs between maximizing payoffs (potentially myopically) and maintaining AIs' incentives to defer to humans.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2411.17749v2",
+      "fields_of_study": [
+        "cs.GT",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2509.07637v1",
+      "title": "Embedded Off-Switches for AI Compute",
+      "authors": "James Petrie",
+      "author_list": [
+        "James Petrie"
+      ],
+      "venue": "arXiv [cs.CR]",
+      "year": "2025",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2509.07637v1",
+      "arxiv_id": "2509.07637v1",
+      "pubmed_id": "",
+      "abstract": "To address the risks of increasingly capable AI systems, we introduce a hardware-level off-switch that embeds thousands of independent \"security blocks\" in each AI accelerator. This massively redundant architecture is designed to prevent unauthorized chip use, even against sophisticated physical attacks. Our main security block design uses public key cryptography to check the authenticity of authorization licenses, and randomly generated nonces to prevent replay attacks. We evaluate attack vectors and present additional security block variants that could be added for greater robustness. Security blocks can be built with standard circuit components, ensuring compatibility with existing semiconductor manufacturing processes. With embedded security blocks, the next generation of AI accelerators could be more robustly defended against dangerous misuse.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2509.07637v1",
+      "fields_of_study": [
+        "cs.CR"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    }
+  ],
+  "field_metrics": {
+    "paper_count": 7,
+    "avg_citation_count": 0,
+    "max_citation_count": 0,
+    "field_momentum_pct": 28,
+    "top_venues": [
+      "arXiv [cs.AI]",
+      "ScienceDaily article",
+      "arXiv [physics.optics, physics.app-ph]"
+    ],
+    "arxiv_coverage_pct": 85,
+    "publisher_diversity": 1,
+    "newest_year": "2025",
+    "oldest_year": "2011",
+    "seed_citation_count": 0
+  },
+  "source_article": {
+    "id": "SD-P-b8586d1aaab7",
+    "title": "A hidden “switch-off” signal could predict solar storms seven years early",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260721000818.htm",
+    "summary": "A newly discovered turning point in the Sun’s 11-year cycle could allow scientists to predict future solar activity years earlier than before. At this “switch-off” point, the most violent space weather abruptly ends, and the remaining number of sunspots offers clues about the next cycle’s strength. Early projections suggest Solar Cycle 26 may be moderate, but a clearer forecast is expected in about two years.",
+    "pub_date_raw": "Tue, 21 Jul 2026 04:08:25 EDT",
+    "pub_date_iso": "2026-07-21T04:08:25Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/07/260721000818.htm",
+    "source_feed": "space_time",
+    "scimspt_axis": "P"
+  }
+}

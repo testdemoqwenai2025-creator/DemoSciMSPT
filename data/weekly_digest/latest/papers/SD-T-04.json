@@ -1,0 +1,25 @@
+{
+  "startup": "SD-T-04",
+  "paper": {
+    "source": "sciencedaily",
+    "raw": "Deng-Gao Lai, Adam Miranowicz, Franco Nori. Nonreciprocal quantum synchronization. . Nature Communications. , 2025; 16 (1) DOI: 10.1038/s41467-025-63408-z",
+    "authors": "Deng-Gao Lai, Adam Miranowicz, Franco Nori",
+    "title": "Nonreciprocal quantum synchronization.",
+    "journal": "Nature Communications",
+    "year": "2025",
+    "doi": "10.1038/s41467-025-63408-z",
+    "doi_url": "https://doi.org/10.1038/s41467-025-63408-z",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm"
+  },
+  "source_article": {
+    "id": "SD-T-a981443df203",
+    "title": "One-way quantum synchronization could make quantum computers more reliable",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+    "summary": "Scientists at RIKEN have proposed a new way to make quantum systems synchronize in only one direction—like a one-way street for sound particles known as phonons. The breakthrough combines two quantum effects to create a form of one-way quantum synchronization that remains surprisingly stable even when exposed to manufacturing flaws and environmental noise, two major obstacles that have long hindered real-world quantum technologies.",
+    "pub_date_raw": "Fri, 12 Jun 2026 02:05:41 EDT",
+    "pub_date_iso": "2026-06-12T02:05:41Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+    "source_feed": "computers_math",
+    "scimspt_axis": "T"
+  }
+}

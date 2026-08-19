@@ -1,0 +1,258 @@
+{
+  "startup": "SD-T-06",
+  "papers": [
+    {
+      "source": "crossref",
+      "id": "10.1038/s43246-026-01072-6",
+      "title": "Manifold of magnetic nodal lines in an elemental ferromagnet",
+      "authors": "O. J. Clark, M. Garcia-Diez, J. Fink, O. Rader, R. Miranda, M. G. Vergniory, J. Sánchez-Barriga",
+      "author_list": [
+        "O. J. Clark",
+        "M. Garcia-Diez",
+        "J. Fink",
+        "O. Rader",
+        "R. Miranda",
+        "M. G. Vergniory",
+        "J. Sánchez-Barriga"
+      ],
+      "venue": "Communications Materials",
+      "year": "2026",
+      "doi": "10.1038/s43246-026-01072-6",
+      "doi_url": "https://doi.org/10.1038/s43246-026-01072-6",
+      "url": "https://doi.org/10.1038/s43246-026-01072-6",
+      "arxiv_id": "",
+      "pubmed_id": "",
+      "abstract": "Abstract Magnetic nodal line semimetals, defined by twofold degenerate gapless crossings along extended momentum paths, offer significant potential for spintronics and future information technologies. Despite their potential, these systems are rare in nature, with only few examples known to date. Here, using spin- and angle-resolved photoemission spectroscopy and density functional theory-based calculations, we classify ferromagnetic hexagonal close-packed (hcp) cobalt as a prototypical system exhibiting these properties. We demonstrate that manifolds of magnetic gapless nodal rings enclosing the Γ and K points in the k z = 0 plane, and magnetic nodal lines spanning the entire A-L path in the $${k}_{z}=\\frac{\\pi }{c}$$ k z = π c plane, coexist and dominate the fermiology of this elemental system. These mirror-protected bulk crossing points are associated with surface states, both of which exhibit controllable spin textures. This work is the first identification of cobalt as a simple, yet highly tunable and rich topological platform for exploring and manipulating spin-polarised Weyl-like nodal lines at room temperature.",
+      "tldr": "",
+      "citation_count": 1,
+      "influential_citation_count": 0,
+      "reference_count": 86,
+      "is_open_access": false,
+      "open_access_pdf": "",
+      "fields_of_study": [],
+      "publisher": "Springer Science and Business Media LLC",
+      "is_seed": true,
+      "relevance_reason": "Cited by ScienceDaily article (the original research signal)"
+    },
+    {
+      "source": "arxiv",
+      "id": "2509.12722v1",
+      "title": "Frobenius manifold for the nodal quiver",
+      "authors": "Atsuki Nakago, Yuuki Shiraishi, Atsushi Takahashi",
+      "author_list": [
+        "Atsuki Nakago",
+        "Yuuki Shiraishi",
+        "Atsushi Takahashi"
+      ],
+      "venue": "arXiv [math.AG]",
+      "year": "2025",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2509.12722v1",
+      "arxiv_id": "2509.12722v1",
+      "pubmed_id": "",
+      "abstract": "Starting from the Weierstrass elliptic function, we study the associated Frobenius structure, incorporating the perspective of derived categories, particularly that of homological mirror symmetry. Given a deformation of the Weierstrass elliptic function, we construct a primitive form normalized to be compatible with the period map for integral cycles, and obtain a Frobenius structure whose Frobenius potential is defined over the rational numbers. We also construct a Frobenius structure using elliptic Weyl group invariants (as opposed to Jacobi group invariants), and establish an isomorphism between these two Frobenius structures. We further examine the relationship between the degree of the Lyashko--Looijenga map modulo the modular group and the number of full exceptional collections up to the braid group action and translations, as well as the associated Gamma-integral structure.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2509.12722v1",
+      "fields_of_study": [
+        "math.AG"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2101.01733v2",
+      "title": "Symmetry-protected Nodal Points and Nodal Lines in Magnetic Materials",
+      "authors": "Jian Yang, Chen Fang, Zheng-Xin Liu",
+      "author_list": [
+        "Jian Yang",
+        "Chen Fang",
+        "Zheng-Xin Liu"
+      ],
+      "venue": "arXiv [cond-mat.mes-hall, cond-mat.str-el]",
+      "year": "2021",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2101.01733v2",
+      "arxiv_id": "2101.01733v2",
+      "pubmed_id": "",
+      "abstract": "Nodal-point and Nodal-line structures in the dispersion of electron energy bands are characterized by their high degeneracy in certain corners or lines in the Brillouin zone (BZ). These nodal structures can also exist in the dispersion of itinerant electrons in magnetically ordered materials whose symmetry groups are anti-unitary groups called the magnetic space groups. In the present work, we provide a complete list of magnetic space groups which can host symmetry-protected nodal-point/line band structures for spin-1/2 fermionic particles, where the degeneracies at the nodal points/lines are guaranteed by irreducible projective representations (IPReps) of the little co-groups. Our discussion is restricted to the magnetic space groups whose magnetic point group contains the space-time inversion operation $\\tilde T=\\mathcal IT$, the combined operation of spacial inversion $\\mathcal I$ and time reversal $T$, such that the energy bands are at least doubly-degenerate at arbitrary points in the BZ. For these magnetic point groups we provide the invariants to label the classes of projective Reps, and for each class we calculate all the inequivalent IPReps. From the results we select out all the groups and the corresponding Rep classes which support high-dimensional ($d\\geq$4) IPReps. We then list the magnetic space groups and their high symmetry points/lines whose little co-groups have high-dimensional ($d\\geq$4) IPReps with the corresponding factor systems. Examples of candidate materials are discussed.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2101.01733v2",
+      "fields_of_study": [
+        "cond-mat.mes-hall",
+        "cond-mat.str-el"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "1611.09959v1",
+      "title": "Distribution of the nodal sets of eigenfunctions on analytic manifolds",
+      "authors": "Xiaolong Han",
+      "author_list": [
+        "Xiaolong Han"
+      ],
+      "venue": "arXiv [math.AP, math.SP]",
+      "year": "2016",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/1611.09959v1",
+      "arxiv_id": "1611.09959v1",
+      "pubmed_id": "",
+      "abstract": "The nodal set of the Laplacian eigenfunction has co-dimension one and has finite hypersurface measure on a compact Riemannian manifold. In this paper, we investigate the distribution of the nodal sets of eigenfunctions, when the metric on the manifold is analytic. We prove that if the eigenfunctions are equidistributed at a small scale, then the weak limits of the hypersurface volume form of their nodal sets are comparable to the volume form on the manifold. In particular, on the negatively curved manifolds with analytic metric and on the tori, we show that in any eigenbasis, there is a full density subsequence of eigenfunctions such that the weak limits of the hypersurface volume form of their nodal sets are comparable to the volume form on the manifold.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/1611.09959v1",
+      "fields_of_study": [
+        "math.AP",
+        "math.SP"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2608.01446v1",
+      "title": "Coarse nodal counts on sub-Riemannian manifolds",
+      "authors": "Irene Silvestre-Roselló, Vukašin Stojisavljević",
+      "author_list": [
+        "Irene Silvestre-Roselló",
+        "Vukašin Stojisavljević"
+      ],
+      "venue": "arXiv [math.SP, math.AP, math.AT]",
+      "year": "2026",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2608.01446v1",
+      "arxiv_id": "2608.01446v1",
+      "pubmed_id": "",
+      "abstract": "We study coarse topology of nodal sets of linear combinations of eigenfunctions of sub-Laplacians. More precisely, we prove coarse versions of Courant's and Bézout's theorems for linear combinations of eigenfunctions of sub-Laplacians on compact nilmanifolds obtained as quotients of stratified groups. We conjecture the extensions of these results to general closed equiregular sub-Riemannian manifolds and outline a programme for proving them. The method we use combines topological persistence and anisotropic Sobolev theory of Hörmander vector fields, generalizing the ideas which have recently been implemented in the Riemannian case.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2608.01446v1",
+      "fields_of_study": [
+        "math.SP",
+        "math.AP",
+        "math.AT"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "2310.11669v1",
+      "title": "Magnetic eight-fold nodal-point and nodal-network fermions in MnB2",
+      "authors": "Yongheng Ge, Ziming Zhu, Zeying Zhang, Weikang Wu, Cong Xiao, Shengyuan A. Yang",
+      "author_list": [
+        "Yongheng Ge",
+        "Ziming Zhu",
+        "Zeying Zhang",
+        "Weikang Wu",
+        "Cong Xiao",
+        "Shengyuan A. Yang"
+      ],
+      "venue": "arXiv [cond-mat.mtrl-sci]",
+      "year": "2023",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/2310.11669v1",
+      "arxiv_id": "2310.11669v1",
+      "pubmed_id": "",
+      "abstract": "Realizing topological semimetal states with novel emergent fermions in magnetic materials is a focus of current research. Based on first-principle calculations and symmetry analysis, we reveal interesting magnetic emergent fermions in an existing material MnB2. In the temperature range from 157 K to 760 K, MnB2 is a collinear antiferromagnet. We find the coexistence of eightfold nodal points and nodal net close to the Fermi level, which are protected by the spin group in the absence of spin-orbit coupling. Depending on the Neel vector orientation, consideration of spin-orbit coupling will either open small gaps at these nodal features, or transform them into magnetic linear and quadratic Dirac points and nodal rings. Below 157 K, MnB2 acquires weak ferromagnetism due to spin tilting. We predict that this transition is accompanied by a drastic change in anomalous Hall response, from zero above 157 K to 200 $Ω\\cdot \\text{cm}^{-1}$ below 157 K.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/2310.11669v1",
+      "fields_of_study": [
+        "cond-mat.mtrl-sci"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    },
+    {
+      "source": "arxiv",
+      "id": "1904.12867v2",
+      "title": "Multifold nodal points in magnetic materials",
+      "authors": "Jennifer Cano, Barry Bradlyn, M. G. Vergniory",
+      "author_list": [
+        "Jennifer Cano",
+        "Barry Bradlyn",
+        "M. G. Vergniory"
+      ],
+      "venue": "arXiv [cond-mat.mes-hall, cond-mat.mtrl-sci, cond-mat.str-el]",
+      "year": "2019",
+      "doi": "",
+      "doi_url": "",
+      "url": "http://arxiv.org/abs/1904.12867v2",
+      "arxiv_id": "1904.12867v2",
+      "pubmed_id": "",
+      "abstract": "We describe the symmetry protected nodal points that can exist in magnetic space groups and show that only 3-, 6-, and 8-fold degeneracies are possible (in addition to the 2- and 4-fold degeneracies that have already been studied.) The 3- and 6-fold degeneracies are derived from \"spin-1\" Weyl fermions. The 8-fold degeneracies come in different flavors. In particular, we distinguish between 8-fold fermions that realize non-chiral \"Rarita-Schwinger fermions\" and those that can be described as four degenerate Weyl fermions. We list the (magnetic and non-magnetic) space groups where these exotic fermions can be found. We further show that in several cases, a magnetic translation symmetry pins the Hamiltonian of the multifold fermion to an idealized exactly solvable point that is not achievable in non-magnetic crystals without fine-tuning. Finally, we present known compounds that may host these fermions and methods for systematically finding more candidate materials.",
+      "tldr": "",
+      "citation_count": 0,
+      "influential_citation_count": 0,
+      "reference_count": 0,
+      "is_open_access": true,
+      "open_access_pdf": "https://arxiv.org/pdf/1904.12867v2",
+      "fields_of_study": [
+        "cond-mat.mes-hall",
+        "cond-mat.mtrl-sci",
+        "cond-mat.str-el",
+        "hep-th"
+      ],
+      "publisher": "arXiv",
+      "is_seed": false,
+      "relevance_reason": "arXiv keyword match — semantically related via title terms"
+    }
+  ],
+  "field_metrics": {
+    "paper_count": 7,
+    "avg_citation_count": 0,
+    "max_citation_count": 1,
+    "field_momentum_pct": 42,
+    "top_venues": [
+      "Communications Materials",
+      "arXiv [math.AG]",
+      "arXiv [cond-mat.mes-hall, cond-mat.str-el]"
+    ],
+    "arxiv_coverage_pct": 85,
+    "publisher_diversity": 2,
+    "newest_year": "2026",
+    "oldest_year": "2016",
+    "seed_citation_count": 1
+  },
+  "source_article": {
+    "id": "SD-T-468a80fae68f",
+    "title": "Scientists discover a hidden quantum world inside cobalt",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260604044255.htm",
+    "summary": "Scientists have uncovered unexpected quantum complexity inside cobalt, a metal long thought to be fully understood. Advanced measurements revealed a dense network of topological electronic states that remain robust at room temperature. These states enable extremely fast electron behavior and can be switched or controlled using magnetism. The discovery could open new paths toward next-generation computing and spin-based devices.",
+    "pub_date_raw": "Fri, 05 Jun 2026 05:07:05 EDT",
+    "pub_date_iso": "2026-06-05T05:07:05Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/06/260604044255.htm",
+    "source_feed": "computers_math",
+    "scimspt_axis": "T"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "startup": "SD-T-02",
+  "paper": {
+    "source": "sciencedaily",
+    "raw": "Bao Lam, Yung Man Yu, Hyunjun Nam, Hsu-Chih Ni, Shomik Chatterjee, Shaloo Rakheja, Jian-Min Zuo, Qing Cao. Monolithic three-dimensional integration of silicon transistors. . Nature. , 2026; DOI: 10.1038/s41586-026-10496-6",
+    "authors": "Bao Lam, Yung Man Yu, Hyunjun Nam, Hsu-Chih Ni, Shomik Chatterjee, Shaloo Rakheja, Jian-Min Zuo, Qing Cao",
+    "title": "Monolithic three-dimensional integration of silicon transistors.",
+    "journal": "Nature",
+    "year": "2026",
+    "doi": "10.1038/s41586-026-10496-6",
+    "doi_url": "https://doi.org/10.1038/s41586-026-10496-6",
+    "url": "https://www.sciencedaily.com/releases/2026/05/260530053412.htm"
+  },
+  "source_article": {
+    "id": "SD-T-83cb9abe45bb",
+    "title": "New 3D silicon chip breakthrough could extend Moore’s Law for years",
+    "link": "https://www.sciencedaily.com/releases/2026/05/260530053412.htm",
+    "summary": "As traditional chip miniaturization slows, researchers have found a way to pack more computing power into the same space by stacking silicon circuits in multiple layers. The new process uses ultra-thin silicon membranes and low-temperature manufacturing techniques to overcome a major obstacle that has long blocked the production of true 3D chips.",
+    "pub_date_raw": "Sat, 30 May 2026 06:26:24 EDT",
+    "pub_date_iso": "2026-05-30T06:26:24Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/05/260530053412.htm",
+    "source_feed": "computers_math",
+    "scimspt_axis": "T"
+  }
+}

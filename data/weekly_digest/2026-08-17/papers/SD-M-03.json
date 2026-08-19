@@ -1,0 +1,25 @@
+{
+  "startup": "SD-M-03",
+  "paper": {
+    "source": "sciencedaily",
+    "raw": "Z. T. Wang, M. Hilke, N. Fong, D. G. Austing, S. A. Studenikin, K. W. West, L. N. Pfeiffer. Resonant Magnetophonon Emission by Supersonic Electrons in Ultrahigh-Mobility Two-Dimensional Systems. . Physical Review Letters. , 2026; 136 (14) DOI: 10.1103/m1nb-j1h6",
+    "authors": "Z. T. Wang, M. Hilke, N. Fong, D. G. Austing, S. A. Studenikin, K. W. West, L. N. Pfeiffer",
+    "title": "Resonant Magnetophonon Emission by Supersonic Electrons in Ultrahigh-Mobility Two-Dimensional Systems.",
+    "journal": "Physical Review Letters",
+    "year": "2026",
+    "doi": "10.1103/m1nb-j1h6",
+    "doi_url": "https://doi.org/10.1103/m1nb-j1h6",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm"
+  },
+  "source_article": {
+    "id": "SD-M-75a5dfffafed",
+    "title": "Scientists create quantum sound device that could transform communications",
+    "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+    "summary": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.",
+    "pub_date_raw": "Wed, 01 Jul 2026 22:11:12 EDT",
+    "pub_date_iso": "2026-07-01T22:11:12Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+    "source_feed": "matter_energy",
+    "scimspt_axis": "M"
+  }
+}

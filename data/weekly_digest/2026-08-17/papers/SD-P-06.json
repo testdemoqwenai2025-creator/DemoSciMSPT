@@ -1,0 +1,25 @@
+{
+  "startup": "SD-P-06",
+  "paper": {
+    "source": "sciencedaily",
+    "raw": "C. D. Tremblay, S. Chaudhary, M. G. Li, S. Z. Sheikh, T. Myburgh, D. Czech, D. E. MacMahon, P. B. Demorest, R. A. Donnachie, A. P. V. Siemion, V. Gajjar, M. Lebofsky, K. Wandia, K. I. Perez, N. Madhusudhan. A Narrowband Technosignature Search toward the Hycean Candidate K2-18 b Using the VLA and MeerKAT. . The Astronomical Journal. , 2026; 171 (4): 210 DOI: 10.3847/1538-3881/ae448e",
+    "authors": "C. D. Tremblay, S. Chaudhary, M. G. Li, S. Z. Sheikh, T. Myburgh, D. Czech, D. E. MacMahon, P. B. Demorest, R. A. Donnachie, A. P. V. Siemion, V. Gajjar, M. Lebofsky, K. Wandia, K. I. Perez, N. Madhus",
+    "title": "A Narrowband Technosignature Search toward the Hycean Candidate K2-18 b Using the VLA and MeerKAT.",
+    "journal": "The Astronomical Journal",
+    "year": "2026",
+    "doi": "10.3847/1538-3881/ae448e",
+    "doi_url": "https://doi.org/10.3847/1538-3881/ae448e",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm"
+  },
+  "source_article": {
+    "id": "SD-P-2a288534f8e5",
+    "title": "Are there aliens on exoplanet K2-18b? Scientists just scanned it for signals",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
+    "summary": "K2-18b is one of the most promising worlds for the search for extraterrestrial life, so astronomers conducted an unusually powerful radio survey using both the VLA and MeerKAT telescopes. Advanced software analyzed millions of signals, filtering out Earth-based interference and other false positives. No convincing artificial radio transmissions were found, but the project demonstrated a powerful new approach that will make future SETI searches faster and far more effective.",
+    "pub_date_raw": "Tue, 14 Jul 2026 09:04:12 EDT",
+    "pub_date_iso": "2026-07-14T09:04:12Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/07/260712011748.htm",
+    "source_feed": "space_time",
+    "scimspt_axis": "P"
+  }
+}

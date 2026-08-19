@@ -1,0 +1,25 @@
+{
+  "startup": "SD-S-05",
+  "paper": {
+    "source": "sciencedaily",
+    "raw": "Gilmar Reis, Eduardo Augusto dos Santos Moreira Silva, Daniela Carla Medeiros Silva, Lehana Thabane, Thiago Santiago Ferreira, Luiza Lanna França Reis, Ana Paula Figueiredo Guimaraes Almeida, Marcela Menezes Amaral, Leonardo Cançado Monteiro Savassi, Vitoria Helena de Souza Campos, Maria Izabel Campos Simplicio, Luciene Barra Ribeiro, Thalyne de Souza Medeiros, Thais Campos Siqueira, Taynara Silva Vieira, Nayara Drumond Rausse, Tereza Cristina Garofolo, Eliane Carreiro Fagundes Silva, Ofir Harari, Gennaro D’Urso, Jamie I. Forrest, Jay Park, Jean B. Nachega, Christopher Lindsell, Jeffrey S. Gle",
+    "authors": "Gilmar Reis, Eduardo Augusto dos Santos Moreira Silva, Daniela Carla Medeiros Silva, Lehana Thabane, Thiago Santiago Ferreira, Luiza Lanna França Reis, Ana Paula Figueiredo Guimaraes Almeida, Marcela ",
+    "title": "The Effect of Fluvoxamine and Metformin for Fatigue in Patients With Long COVID.",
+    "journal": "Annals of Internal Medicine",
+    "year": "2026",
+    "doi": "10.7326/ANNALS-25-03959",
+    "doi_url": "https://doi.org/10.7326/ANNALS-25-03959",
+    "url": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm"
+  },
+  "source_article": {
+    "id": "SD-S-4df76be4a77f",
+    "title": "Common antidepressant may ease long COVID’s crushing fatigue",
+    "link": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+    "summary": "A low-cost antidepressant may offer new hope for people struggling with long COVID fatigue. In a randomized clinical trial involving 399 adults, fluvoxamine significantly reduced fatigue and improved quality of life compared with a placebo, making it one of the first medications to show meaningful benefits for this disabling condition.",
+    "pub_date_raw": "Sat, 18 Jul 2026 21:55:33 EDT",
+    "pub_date_iso": "2026-07-18T21:55:33Z",
+    "guid": "https://www.sciencedaily.com/releases/2026/07/260718010158.htm",
+    "source_feed": "mind_brain",
+    "scimspt_axis": "S"
+  }
+}

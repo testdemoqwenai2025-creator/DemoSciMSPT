@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>Computers &amp; Math News -- ScienceDaily</title>
+		<link>https://www.sciencedaily.com/news/computers_math/</link>
+		<description>Hacking and computer security. Read today&#039;s research news on hacking and protecting against codebreakers. New software, secure data sharing, and more.</description>
+		<language>en-us</language>
+		<pubDate>Mon, 17 Aug 2026 04:24:42 EDT</pubDate>
+		<lastBuildDate>Mon, 17 Aug 2026 04:24:42 EDT</lastBuildDate>
+		<ttl>60</ttl>
+		<image>
+			<title>Computers &amp; Math News -- ScienceDaily</title>
+			<url>https://www.sciencedaily.com/images/scidaily-logo-rss.png</url>
+			<link>https://www.sciencedaily.com/news/computers_math/</link>
+			<description>For more science news, visit ScienceDaily.</description>
+		</image>
+		<atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="https://www.sciencedaily.com/rss/computers_math.xml" type="application/rss+xml" />
+		<item>
+			<title>Scientists turn DNA into a memory device that uses 100x less power</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260816044853.htm</link>
+			<description>Researchers combined synthetic DNA with a semiconductor to create an ultra-low-power memory device capable of storing and processing information in the same place. The bio-hybrid technology could eventually help make AI systems and next-generation computers far more energy efficient.</description>
+			<pubDate>Mon, 17 Aug 2026 04:06:45 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260816044853.htm</guid>
+		</item>
+		<item>
+			<title>Scientists tracked kids for 8 years — the screen time result was unexpected</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260815064803.htm</link>
+			<description>An eight-year Finnish study found that children who spent more time on screens tended to show better cognitive processing as teenagers, challenging common assumptions about screen use. Researchers say the key may be balancing physical activity with screen activities that encourage learning, creativity, and active thinking.</description>
+			<pubDate>Mon, 17 Aug 2026 02:41:08 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260815064803.htm</guid>
+		</item>
+		<item>
+			<title>Tiny graphene wrinkles create surprisingly powerful electrical effects</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260815064801.htm</link>
+			<description>Scientists have discovered that tiny, sharply curved wrinkles in graphene can dramatically alter its electrical behavior, creating surprisingly strong charge separation. The finding suggests future electronics could be tuned by reshaping materials at the atomic scale instead of changing what they’re made of.</description>
+			<pubDate>Sun, 16 Aug 2026 22:28:23 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260815064801.htm</guid>
+		</item>
+		<item>
+			<title>World’s first superconducting quantum heat engine could help unlock massive quantum computers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260814011041.htm</link>
+			<description>A tiny superconducting engine has successfully converted heat near absolute zero into useful work, demonstrating the first cyclic quantum heat engine of its kind. Future versions could operate autonomously inside quantum computers, potentially eliminating huge numbers of costly, noise-producing microwave cables.</description>
+			<pubDate>Fri, 14 Aug 2026 08:56:01 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260814011041.htm</guid>
+		</item>
+		<item>
+			<title>Ordinary WiFi can now identify you with near-perfect accuracy</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260811052857.htm</link>
+			<description>Ordinary WiFi networks could quietly become powerful surveillance tools, allowing people to be identified without cameras, special sensors, or even carrying a connected device. Researchers showed that unencrypted signals routinely exchanged between WiFi devices and routers can be used to create radio-based images of people and recognize them within seconds. In tests involving 197 participants, the system identified individuals with nearly 100% accuracy, even from different angles and regardless of how they walked.</description>
+			<pubDate>Wed, 12 Aug 2026 00:07:22 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260811052857.htm</guid>
+		</item>
+		<item>
+			<title>A 0.42-nanometer breakthrough could push transistors beyond silicon</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260808234943.htm</link>
+			<description>Atomically thin semiconductors could enable dramatically smaller and more efficient chips, but a stubborn problem at the boundary between materials has limited their performance. Researchers have now engineered that atomic interface to protect electron flow while still allowing extremely thin insulating layers. The resulting transistors delivered an unusually strong combination of electrical control and performance.</description>
+			<pubDate>Sun, 09 Aug 2026 02:05:43 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260808234943.htm</guid>
+		</item>
+		<item>
+			<title>New fuel cell breakthrough could help power energy-hungry data centers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260807035140.htm</link>
+			<description>A new nanostructured carbon design lets fuel-cell catalysts use tiny amounts of platinum while remaining remarkably stable and efficient. The breakthrough could help hydrogen fuel cells become a more practical way to power data centers, vehicles, and other energy-intensive technologies.</description>
+			<pubDate>Sat, 08 Aug 2026 10:09:02 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260807035140.htm</guid>
+		</item>
+		<item>
+			<title>Sunlight creates quantum entanglement once thought to require lasers</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260807035133.htm</link>
+			<description>Scientists have generated quantum entanglement directly from sunlight, potentially offering a lower-energy alternative to the lasers normally used in quantum technology. Their outdoor experiment produced entangled photons with about 94% similarity to an ideal state. The result could pave the way for simpler quantum satellites, secure communications, and more energy-efficient quantum computing.</description>
+			<pubDate>Fri, 07 Aug 2026 23:49:26 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260807035133.htm</guid>
+		</item>
+		<item>
+			<title>Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260804034634.htm</link>
+			<description>A mathematician working at Anthropic says he used the AI model Claude Fable 5 to uncover a remarkably simple counterexample to the Jacobian conjecture, a famous problem that has resisted mathematicians for more than a century. The result shows that the conjecture is false in three dimensions and above, although the original two-dimensional version remains unsolved.</description>
+			<pubDate>Wed, 05 Aug 2026 22:02:49 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260804034634.htm</guid>
+		</item>
+		<item>
+			<title>Scientists twist crystal layers and reshape matter from within</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260801042819.htm</link>
+			<description>Researchers have found a way to build much larger “twisted” oxide materials while precisely controlling how their atomic layers line up. Because these materials can be made over large areas and transferred onto different surfaces, the technique could help turn twistronics from a laboratory curiosity into a practical platform for next-generation electronics.</description>
+			<pubDate>Mon, 03 Aug 2026 00:36:48 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260801042819.htm</guid>
+		</item>
+		<item>
+			<title>Mathematicians prove perfectly fair elections are impossible</title>
+			<link>https://www.sciencedaily.com/releases/2026/08/260801042812.htm</link>
+			<description>Mathematicians have shown that no electoral system can perfectly balance local representation, proportional national results, and a fixed-size parliament once enough parties compete. A newly proposed voting method could soften these unavoidable trade-offs and produce outcomes that are much closer to fair.</description>
+			<pubDate>Sun, 02 Aug 2026 09:10:21 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/08/260801042812.htm</guid>
+		</item>
+		<item>
+			<title>AI can tell if your brain is aging faster than you are</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260729051540.htm</link>
+			<description>A person’s sleeping brain may reveal warning signs of dementia long before memory problems begin. Researchers used machine learning to analyze EEG recordings from about 7,000 adults and found that an older-than-expected “brain age” was tied to a sharply higher dementia risk. Every additional 10 years of brain aging raised that risk by nearly 40%.</description>
+			<pubDate>Fri, 31 Jul 2026 03:05:12 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260729051540.htm</guid>
+		</item>
+		<item>
+			<title>Scientists create an “electron lighthouse” with laser light</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260727214601.htm</link>
+			<description>Scientists have created an “electron lighthouse” that uses laser light to launch and steer electrons through a semiconductor without an applied electrical field. The quantum effect could eventually improve optical sensors, communications, imaging, and information storage.</description>
+			<pubDate>Tue, 28 Jul 2026 01:03:12 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260727214601.htm</guid>
+		</item>
+		<item>
+			<title>Inside the Backrooms: The internet’s creepiest place is becoming a tourist attraction</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260726015254.htm</link>
+			<description>The Backrooms began as a single eerie image of empty yellow rooms, but internet users transformed it into a vast fictional world that feels disturbingly real. Through videos, games, maps, survival guides and social media stories, audiences do more than watch the horror unfold. They help build and explore it. Researchers suggest this popularity reflects a new kind of digital tourism, where people emotionally enter imaginary places filled with mystery, nostalgia and unease.</description>
+			<pubDate>Sun, 26 Jul 2026 04:16:35 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260726015254.htm</guid>
+		</item>
+		<item>
+			<title>Your AI calorie-tracking app may be off by 345 calories</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260726015237.htm</link>
+			<description>Popular AI-powered food apps may make calorie counting easier, but they may also leave out a surprisingly large part of the meal. Four apps underestimated calories and fat by about one-third when tested against carefully prepared meals. High-fat ketogenic dishes appeared to cause the most trouble, while carbohydrates were measured more consistently.</description>
+			<pubDate>Sun, 26 Jul 2026 09:06:15 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260726015237.htm</guid>
+		</item>
+		<item>
+			<title>Sweden’s hidden rare earth deposits could help break China’s grip</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260723084055.htm</link>
+			<description>Sweden could become an important source of rare earth elements needed for magnets and green technologies. Instead of extracting one target metal, researchers are cataloging everything contained in Swedish mineral deposits. They will then develop magnets using those naturally available combinations, potentially reducing pollution, waste, and reliance on China.</description>
+			<pubDate>Fri, 24 Jul 2026 04:30:52 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260723084055.htm</guid>
+		</item>
+		<item>
+			<title>MIT’s new lidar chip could give self-driving cars a wider view</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260722032127.htm</link>
+			<description>MIT engineers have found a way to give chip-based lidar a wider, clearer view without relying on moving parts. Their design uses differently shaped antennas that can sit close together without scrambling one another’s signals. In tests, the system sharply reduced interference while steering a single precise beam across a broad field of view.</description>
+			<pubDate>Wed, 22 Jul 2026 06:00:54 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260722032127.htm</guid>
+		</item>
+		<item>
+			<title>An ordinary laptop solved a problem thought to require a quantum computer</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260719040000.htm</link>
+			<description>A quantum problem once described as impossible for classical computers has now been solved using relatively modest hardware. Researchers used tensor networks to compress the overwhelming wave function created by hundreds of entangled qubits, allowing some calculations to run on a laptop. Their results matched both theoretical predictions and simulations performed with a quantum computer. The method could open new paths for exploring quantum dynamics and materials.</description>
+			<pubDate>Mon, 20 Jul 2026 03:40:09 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260719040000.htm</guid>
+		</item>
+		<item>
+			<title>New programmable photonic chip can control how fast light moves</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260718010149.htm</link>
+			<description>Scientists have created a programmable optical chip that can slow light on demand, giving engineers far greater control over how optical signals propagate through a circuit. The technology could provide the delays, synchronization, and buffering functions needed to make light-based computing more practical. A single chip could eventually perform several tasks that currently require separate devices, potentially reducing energy use, cost, and complexity in AI servers and data centers.</description>
+			<pubDate>Tue, 21 Jul 2026 22:43:34 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260718010149.htm</guid>
+		</item>
+		<item>
+			<title>New cancer strategy could stop tumors before resistance takes hold</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260716023607.htm</link>
+			<description>Researchers are applying evolutionary theory to cancer by changing treatments before tumors have time to develop resistance. Mathematical models suggest that rapid, carefully timed switches between multiple therapies could improve cure rates.</description>
+			<pubDate>Wed, 22 Jul 2026 01:41:04 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260716023607.htm</guid>
+		</item>
+		<item>
+			<title>New AI blood test predicts heart disease 15 years early</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260716023603.htm</link>
+			<description>A new AI-powered blood test could give people a remarkably early warning of serious heart and circulation problems. Developed by researchers at the University of Hong Kong, CardiOmicScore analyzes thousands of proteins and metabolites to estimate the risk of six major cardiovascular diseases, including heart attack, stroke, heart failure, and atrial fibrillation. Unlike genetic risk scores, which remain fixed throughout life, the system captures biological changes linked to a person’s current health, lifestyle, and environment.</description>
+			<pubDate>Sun, 19 Jul 2026 10:58:00 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260716023603.htm</guid>
+		</item>
+		<item>
+			<title>“Silly sprinklers” help scientists finally solve Feynman’s famous sprinkler mystery</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260715083535.htm</link>
+			<description>A team of mathematicians used whimsical &quot;silly sprinklers&quot; to solve a physics mystery that has puzzled scientists for decades. Their experiments showed that the rotation of both normal and reverse sprinklers is driven by the momentum of flowing water, not by the outside water flow or other long-standing theories. The results finally provide a clear answer to Feynman’s famous sprinkler problem. They could also help engineers design more efficient fluid-powered machines.</description>
+			<pubDate>Fri, 17 Jul 2026 09:58:52 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260715083535.htm</guid>
+		</item>
+		<item>
+			<title>Quantum breakthrough links light and magnetism in atomically thin materials</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260715083523.htm</link>
+			<description>A new review highlights exciting progress in atomically thin quantum materials where light and magnetism work together in ways never before possible. In these materials, light-generated excitons can interact directly with magnetic behavior, creating opportunities to control magnetic states using light alone. Scientists believe this could pave the way for advanced optical memory, quantum devices, and ultra-efficient photonic technologies.</description>
+			<pubDate>Thu, 16 Jul 2026 00:16:48 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260715083523.htm</guid>
+		</item>
+		<item>
+			<title>Alan Turing&#039;s biggest AI assumption may have been wrong</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713084850.htm</link>
+			<description>A new book claims AI has been built on a flawed assumption dating back to Alan Turing&#039;s famous 1950 paper. Peter J. Denning argues that the most important parts of human intelligence, including common sense, intuition, culture, and practical know-how, cannot be encoded into computers. He believes this makes true human-level AI impossible, regardless of how large language models become.</description>
+			<pubDate>Mon, 13 Jul 2026 23:12:35 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713084850.htm</guid>
+		</item>
+		<item>
+			<title>Physicists say quantum mechanics may not need imaginary numbers after all</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713000807.htm</link>
+			<description>Physicists from Heinrich Heine University Düsseldorf (HHU) have examined a fundamental property of quantum mechanics in collaboration with the German Aerospace Center (DLR). In the scientific journal Physical Review Letters, they show that this theory does not necessarily need to be formulated with imaginary numbers – real numbers can in fact also be used. The American Physical Society has also dedicated a “Highlight” to these findings in its Physics Magazine.</description>
+			<pubDate>Mon, 13 Jul 2026 03:22:08 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713000807.htm</guid>
+		</item>
+		<item>
+			<title>A 200-year-old physics experiment could help build future computers</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260713000755.htm</link>
+			<description>Scientists at Nanyang Technological University in Singapore have discovered a surprisingly simple way to create exotic light structures called optical skyrmions using a 200-year-old optical effect known as the Poisson spot. Instead of relying on expensive, highly engineered materials, they simply shine a laser at a tiny circular disc, producing stable swirling patterns in light that researchers believe could one day help power advanced data storage, communications, and computing technologies.</description>
+			<pubDate>Mon, 13 Jul 2026 08:49:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713000755.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discovered the brain doesn&#039;t make decisions the way we thought</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260712011757.htm</link>
+			<description>A new study suggests the brain begins making decisions much earlier than scientists previously thought. Researchers found that even primary sensory regions are influenced by higher brain areas through rapid feedback loops, rather than simply passing information forward. This more dynamic view of brain function could help engineers design future AI systems that think more like biological brains while using far less power.</description>
+			<pubDate>Mon, 13 Jul 2026 08:12:27 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260712011757.htm</guid>
+		</item>
+		<item>
+			<title>Physicists finally build a quantum material predicted more than a decade ago</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260711010123.htm</link>
+			<description>Researchers have achieved a major milestone by creating a long-sought two-dimensional quantum material and confirming its unusual conducting edge states. The ability to control these states through strain could make the material a promising platform for future room-temperature quantum electronics.</description>
+			<pubDate>Sat, 11 Jul 2026 03:03:53 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260711010123.htm</guid>
+		</item>
+		<item>
+			<title>Tiny bubbles could revolutionize inkjet printing</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260711010112.htm</link>
+			<description>Ultra-fine bubbles may offer a cleaner way to perfect inkjet printing for next-generation electronics. By simply changing the number of bubbles in each droplet, researchers were able to dramatically reshape the final printed pattern without leaving behind unwanted chemical residues.</description>
+			<pubDate>Sat, 11 Jul 2026 02:32:37 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260711010112.htm</guid>
+		</item>
+		<item>
+			<title>Harvard scientists turn a silicon chip into a DNA writing machine</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260708022202.htm</link>
+			<description>Scientists have created a silicon chip that can write dozens of DNA sequences simultaneously using electricity and water-based enzymes, offering a cleaner alternative to conventional DNA manufacturing. The breakthrough could eventually support portable DNA-writing devices and even massive DNA data storage, although new chemistry will be needed to scale the technology further.</description>
+			<pubDate>Wed, 08 Jul 2026 22:48:06 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260708022202.htm</guid>
+		</item>
+		<item>
+			<title>Scientists used AI to crack one of water&#039;s biggest mysteries</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260707025047.htm</link>
+			<description>Water’s odd behavior becomes even more dramatic when it is supercooled, but scientists have struggled to compare the many different ways of describing its microscopic structure. Researchers at the University of Osaka used an AI model trained on computer simulations to evaluate 16 different structural descriptors. The system identified the most effective ways to distinguish between water’s two competing liquid states, providing a clearer framework for studying one of nature’s most mysterious substances.</description>
+			<pubDate>Wed, 08 Jul 2026 18:31:30 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260707025047.htm</guid>
+		</item>
+		<item>
+			<title>Incredible new material makes heat programmable</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260707025046.htm</link>
+			<description>A newly developed material can control and &quot;program&quot; heat, allowing it to direct thermal radiation, switch modes, and remember its settings without continuous power. The innovation could lead to smarter infrared sensors, better energy technologies, and memory devices that use light and heat instead of electrical charges.</description>
+			<pubDate>Tue, 07 Jul 2026 19:28:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260707025046.htm</guid>
+		</item>
+		<item>
+			<title>AI just supercharged the race to find room temperature superconductors</title>
+			<link>https://www.sciencedaily.com/releases/2026/07/260701205006.htm</link>
+			<description>Scientists have combined machine learning with quantum physics to discover two new superconductors and create a much faster way to search for many more. The technique could bring researchers significantly closer to the long-sought goal of a room-temperature superconductor.</description>
+			<pubDate>Tue, 07 Jul 2026 01:39:51 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260701205006.htm</guid>
+		</item>
+		<item>
+			<title>Scientists create quantum sound device that could transform communications</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626030435.htm</link>
+			<description>A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.</description>
+			<pubDate>Wed, 01 Jul 2026 22:11:12 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626030435.htm</guid>
+		</item>
+		<item>
+			<title>Tiny magnetic waves could unlock quantum computers the size of a penny</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626030431.htm</link>
+			<description>A major breakthrough in quantum technology has turned magnons, tiny magnetic waves once considered too short-lived for practical use, into promising carriers of quantum information. Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself. That means future improvements could come from better manufacturing rather than entirely new discoveries.</description>
+			<pubDate>Thu, 02 Jul 2026 02:48:14 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626030431.htm</guid>
+		</item>
+		<item>
+			<title>New AI model reveals how neutron star mergers forge heavy elements</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260626030426.htm</link>
+			<description>Researchers have created an AI-based simulation that makes it much faster to model how neutron star mergers produce many of the universe&#039;s heaviest elements. The new tool could improve predictions of these powerful explosions while helping scientists better connect observations in space with experiments on Earth.</description>
+			<pubDate>Wed, 08 Jul 2026 00:07:40 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260626030426.htm</guid>
+		</item>
+		<item>
+			<title>Quantum mechanics once baffled scientists. Now it&#039;s changing the world</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260624025516.htm</link>
+			<description>Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies. Now researchers are pushing its boundaries even further, with potential breakthroughs in energy, medicine, computing, and our understanding of the universe.</description>
+			<pubDate>Sun, 05 Jul 2026 14:13:44 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260624025516.htm</guid>
+		</item>
+		<item>
+			<title>Millions of exploding stars could soon reveal dark energy&#039;s secrets</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260621060315.htm</link>
+			<description>A new AI-powered framework could transform how astronomers measure the expansion of the Universe. By analyzing images of Type Ia supernovae and modeling their environments in unprecedented detail, researchers can estimate cosmic distances with near-spectroscopic accuracy. The technique is designed for the flood of data expected from the upcoming Vera C. Rubin Observatory and may greatly improve our understanding of dark energy.</description>
+			<pubDate>Mon, 29 Jun 2026 17:57:17 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260621060315.htm</guid>
+		</item>
+		<item>
+			<title>This simple twist could bring quantum computers closer to reality</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260620100312.htm</link>
+			<description>Researchers found that twisting layered sheets of hexagonal boron nitride can dramatically change the light produced by quantum emitters embedded within the material. The technique offers an unexpected new level of control over components that could power future quantum computers, communications systems, and sensors.</description>
+			<pubDate>Sat, 20 Jun 2026 12:37:09 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260620100312.htm</guid>
+		</item>
+		<item>
+			<title>The Milky Way’s weird gamma-ray glow may be dark matter after all</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260619101334.htm</link>
+			<description>A strange gamma-ray glow at the center of the Milky Way has long sparked debate over whether it comes from hidden neutron stars or elusive dark matter. By applying machine learning to more than a million simulated observations, researchers included photon energy data for the first time and reached a different conclusion than many earlier studies.</description>
+			<pubDate>Tue, 30 Jun 2026 23:13:34 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260619101334.htm</guid>
+		</item>
+		<item>
+			<title>Researchers found a Wordle strategy that wins 99% of the time</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260619020508.htm</link>
+			<description>Researchers developed a Wordle-solving strategy that succeeds 99% of the time by focusing on information gain rather than likely answers. The method uses Shannon entropy to identify guesses that reveal the most about the hidden word. Each guess is designed to slash uncertainty and narrow the possibilities faster. The result significantly outperformed more traditional Wordle tactics.</description>
+			<pubDate>Fri, 19 Jun 2026 08:50:45 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260619020508.htm</guid>
+		</item>
+		<item>
+			<title>SpaceX wants to build AI data centers in space. Will it work?</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260618041501.htm</link>
+			<description>The race to build data centers in space is gaining momentum as AI drives unprecedented demand for computing power. Orbital facilities could tap into abundant solar energy and avoid many of the environmental challenges faced on Earth. Yet space remains a harsh and expensive place to operate, with major hurdles including cooling, maintenance, radiation exposure, and orbital debris.</description>
+			<pubDate>Thu, 18 Jun 2026 23:43:09 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260618041501.htm</guid>
+		</item>
+		<item>
+			<title>Superconductivity breakthrough could unlock ultra-efficient electronics</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260617032211.htm</link>
+			<description>A clever nanoscale redesign may have solved one of superconductivity’s biggest problems. Researchers in Sweden discovered that by subtly sculpting the surface beneath an ultrathin superconducting material, they could make it stay superconducting at higher temperatures and under much stronger magnetic fields.</description>
+			<pubDate>Wed, 17 Jun 2026 04:24:20 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260617032211.htm</guid>
+		</item>
+		<item>
+			<title>New plasma trick could unlock smaller, more powerful computer chips</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260616102219.htm</link>
+			<description>A new technique could solve one of the biggest challenges in making future computer chips from ultrathin materials. Researchers found that coating molybdenum disulfide with oxygen or fluorine lets manufacturers remove just the top layer of atoms much more safely during plasma processing. The result is a cleaner, more controlled path toward smaller and more capable electronics.</description>
+			<pubDate>Wed, 17 Jun 2026 02:57:07 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260616102219.htm</guid>
+		</item>
+		<item>
+			<title>Your brain was never designed for this much bad news</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260614012006.htm</link>
+			<description>Humans evolved to pay close attention to danger, but today that instinct is being overwhelmed by an endless supply of bad news from around the world. Researchers say the answer isn’t to stop following current events—it’s to build healthier habits around how, when, and where we get our news.</description>
+			<pubDate>Tue, 16 Jun 2026 03:32:55 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260614012006.htm</guid>
+		</item>
+		<item>
+			<title>Oxford physicists just made Schrödinger’s cat even stranger</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260614011848.htm</link>
+			<description>Oxford physicists have created an entirely new type of Schrödinger’s cat-like quantum state using components that are themselves highly quantum in nature. The advance could open new possibilities for more resilient quantum computers and deeper insights into the strange rules that govern the quantum universe.</description>
+			<pubDate>Mon, 15 Jun 2026 03:29:46 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260614011848.htm</guid>
+		</item>
+		<item>
+			<title>Brain-inspired chip runs near absolute zero and could transform quantum computing</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260612032024.htm</link>
+			<description>Scientists at the University of Hong Kong have created a remarkable new type of brain-inspired chip that can function just above absolute zero, one of the coldest environments imaginable. By using a standard silicon carbide transistor in a completely new way, the team made a single device behave like an energy-efficient neuron, firing electrical “spikes” similar to those in the human brain.</description>
+			<pubDate>Fri, 12 Jun 2026 06:38:54 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260612032024.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover a strange property in rice and turn it into a smart material</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260611024621.htm</link>
+			<description>Scientists discovered that rice behaves in a highly unusual way: it weakens under rapid compression but stays stronger when pressure is applied slowly. Using this effect, they engineered a new material that reacts differently to gentle movements and sudden impacts. The material can adapt its stiffness automatically, opening the door to safer soft robots and protective equipment that responds instantly to collisions.</description>
+			<pubDate>Thu, 11 Jun 2026 08:29:52 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260611024621.htm</guid>
+		</item>
+		<item>
+			<title>One-way quantum synchronization could make quantum computers more reliable</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260611024619.htm</link>
+			<description>Scientists at RIKEN have proposed a new way to make quantum systems synchronize in only one direction—like a one-way street for sound particles known as phonons. The breakthrough combines two quantum effects to create a form of one-way quantum synchronization that remains surprisingly stable even when exposed to manufacturing flaws and environmental noise, two major obstacles that have long hindered real-world quantum technologies.</description>
+			<pubDate>Fri, 12 Jun 2026 02:05:41 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260611024619.htm</guid>
+		</item>
+		<item>
+			<title>AI could uncover new physics faster but there’s a surprising catch</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260611024557.htm</link>
+			<description>Scientists found that transfer learning can make the search for new physics in the universe much faster, slashing the need for expensive simulations. Yet the approach can backfire when AI relies too heavily on familiar patterns, potentially missing evidence of something truly new.</description>
+			<pubDate>Thu, 11 Jun 2026 05:16:15 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260611024557.htm</guid>
+		</item>
+		<item>
+			<title>A classic brain test exposed AI&#039;s biggest weakness</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260610003049.htm</link>
+			<description>Researchers gave top AI models a classic attention test used in psychology and found a major flaw. While the models could correctly name colors in short lists, their performance deteriorated sharply as the task became longer and more complex. Some leading systems fell from over 90% accuracy to nearly complete failure.</description>
+			<pubDate>Wed, 10 Jun 2026 06:52:17 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260610003049.htm</guid>
+		</item>
+		<item>
+			<title>Heat breaks the rules at the nanoscale and scientists used it to their advantage</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260606075511.htm</link>
+			<description>Scientists used nanoscale gold metamaterials to supercharge heat transfer across tiny gaps, achieving up to four times more energy flow than similar conventional systems. The breakthrough could lead to better chip cooling, more efficient energy technologies, and a new era of precision heat engineering.</description>
+			<pubDate>Mon, 08 Jun 2026 07:17:50 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260606075511.htm</guid>
+		</item>
+		<item>
+			<title>Scientists finally complete Schrödinger’s 100-year-old color theory</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260606015140.htm</link>
+			<description>Researchers have finally resolved a key problem in a 100-year-old theory of color, showing that the qualities we perceive in colors are intrinsic to the mathematics of color space itself. The discovery sharpens our understanding of human vision and could lead to more precise color technologies and visualizations.</description>
+			<pubDate>Sun, 07 Jun 2026 03:55:21 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260606015140.htm</guid>
+		</item>
+		<item>
+			<title>A tiny atomic shift gives scientists powerful control over metals</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260605023415.htm</link>
+			<description>A team at the University of Minnesota discovered that changing a metal film&#039;s thickness by just a few nanometers can dramatically alter how it behaves electronically. The finding reveals a surprising new way to control metals and could help power future advances in electronics, catalysis, and quantum technology.</description>
+			<pubDate>Sat, 06 Jun 2026 01:27:37 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260605023415.htm</guid>
+		</item>
+		<item>
+			<title>NASA just proved spacecraft can switch between multiple satellite networks</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260605023405.htm</link>
+			<description>NASA’s PExT terminal has shown that spacecraft can seamlessly communicate through multiple government and commercial networks, a major step beyond traditional single-network systems. The mission is now expanding to test new capabilities that could help create a more flexible, reliable communications infrastructure for future space missions.</description>
+			<pubDate>Sat, 06 Jun 2026 00:24:47 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260605023405.htm</guid>
+		</item>
+		<item>
+			<title>AI-designed universal coronavirus vaccine passes first human trial</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260605023357.htm</link>
+			<description>Scientists have successfully tested an AI-designed universal coronavirus vaccine in humans for the first time, finding it to be safe and well tolerated. The vaccine generated immune responses against multiple coronaviruses, including SARS-CoV-2, SARS, and related bat viruses with pandemic potential. By targeting features shared across an entire virus family, it aims to provide protection even as viruses evolve.</description>
+			<pubDate>Fri, 05 Jun 2026 11:42:19 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260605023357.htm</guid>
+		</item>
+		<item>
+			<title>Scientists are seriously asking if bees and ChatGPT are conscious</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260604044258.htm</link>
+			<description>New studies suggest consciousness can&#039;t be judged solely by behavior, whether it&#039;s a chatbot discussing philosophy or a bee searching for nectar. Researchers are increasingly focusing on the internal mechanisms of brains and computers, concluding that today&#039;s AI is likely not conscious while leaving open the possibility for both conscious insects and future machines.</description>
+			<pubDate>Fri, 05 Jun 2026 01:27:32 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260604044258.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover a hidden quantum world inside cobalt</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260604044255.htm</link>
+			<description>Scientists have uncovered unexpected quantum complexity inside cobalt, a metal long thought to be fully understood. Advanced measurements revealed a dense network of topological electronic states that remain robust at room temperature. These states enable extremely fast electron behavior and can be switched or controlled using magnetism. The discovery could open new paths toward next-generation computing and spin-based devices.</description>
+			<pubDate>Fri, 05 Jun 2026 05:07:05 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260604044255.htm</guid>
+		</item>
+		<item>
+			<title>Scientists discover a quantum effect that could eliminate batteries</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260603023917.htm</link>
+			<description>Researchers have discovered how microscopic imperfections and atomic vibrations can be used to control a powerful quantum effect in an advanced material. The effect can turn alternating electrical signals from the environment directly into the kind of current electronic devices need, without traditional components. As temperature changes, the signal can even flip direction, giving scientists a new way to tune device performance.</description>
+			<pubDate>Thu, 04 Jun 2026 03:14:13 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260603023917.htm</guid>
+		</item>
+		<item>
+			<title>The forgotten organ that could predict how long you live</title>
+			<link>https://www.sciencedaily.com/releases/2026/06/260601025352.htm</link>
+			<description>A long-overlooked organ may hold surprising clues to healthy aging and cancer survival. Researchers at Mass General Brigham used AI to analyze CT scans from tens of thousands of adults and found that people with healthier thymuses—a small immune-system organ once thought to become largely irrelevant after childhood—lived longer and had substantially lower risks of heart disease, cancer, and death.</description>
+			<pubDate>Mon, 01 Jun 2026 06:17:04 EDT</pubDate>
+			<guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/06/260601025352.htm</guid>
+		</item>
+	</channel>
+</rss>
+<!-- cached Mon, 17 Aug 2026 04:06:35 EDT -->
