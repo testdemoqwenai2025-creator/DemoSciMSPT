@@ -14,34 +14,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AETH-1 | Advanced Enterprise Technology Hub",
-  description: "AETH-1 v2.0 - The Future of Intelligent Systems. Experience quantum computing, AR/VR, genomics, and AI-powered development in one unified platform.",
+  title: "SciMSPT | Scientific Computing Investment Platform",
+  description: "SciMSPT Foresight Mesh - The GitHub for Scientific Computing. Cross-volume investment recommender and discovery platform for scientific research projects.",
   keywords: [
-    "AETH-1", 
+    "SciMSPT", 
+    "Scientific Computing", 
+    "Investment Platform", 
+    "Research Discovery", 
+    "Foresight Mesh", 
     "Quantum Computing", 
-    "AR/VR", 
     "Genomics Platform", 
     "AI Development", 
     "Next.js", 
-    "TypeScript", 
-    "Enterprise Technology",
-    "Future Tech Lab"
+    "TypeScript",
+    "Enterprise Technology"
   ],
-  authors: [{ name: "AETH-1 Team" }],
+  authors: [{ name: "SciMSPT Team" }],
   icons: {
     icon: "/logo.svg",
   },
   openGraph: {
-    title: "AETH-1 | Advanced Enterprise Technology Hub",
-    description: "The Future of Intelligent Systems - Quantum, AR/VR, Genomics & AI",
-    url: "https://aeth.dev",
-    siteName: "AETH-1",
+    title: "SciMSPT | Scientific Computing Investment Platform",
+    description: "Cross-volume investment recommender for scientific computing projects - The Future of Scientific Discovery",
+    url: "https://testdemoqwenai2025-creator.github.io/DemoSciMSPT/",
+    siteName: "SciMSPT",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AETH-1 | Advanced Enterprise Technology Hub",
-    description: "Experience the future of intelligent systems",
+    title: "SciMSPT | Scientific Computing Investment Platform",
+    description: "The GitHub for Scientific Computing - Advanced Research Investment Platform",
   },
 };
 

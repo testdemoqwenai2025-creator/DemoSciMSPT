@@ -72,7 +72,7 @@ export default function Header({
               </div>
               <div className="hidden sm:block">
                 <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-                  SciCMPMATH
+                  SciMSPT
                 </h1>
                 <p className="text-[10px] text-muted-foreground -mt-1">by Endeavor Science</p>
               </div>
@@ -121,7 +121,7 @@ export default function Header({
               asChild
             >
               <a
-                href="https://github.com/testdemoqwenai2025-creator/SciCMPMATH"
+                href="https://github.com/testdemoqwenai2025-creator/SciMSPT"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub Repository"

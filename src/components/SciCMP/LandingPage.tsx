@@ -180,7 +180,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
               <span className="text-primary">Scientific Discovery</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              From sequence analysis to molecular dynamics, SciCMPMATH provides 
+              From sequence analysis to molecular dynamics, SciMSPT provides 
               the complete toolkit for modern computational research.
             </p>
           </div>
@@ -221,7 +221,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
               Loved by Researchers Worldwide
             </h2>
             <p className="text-lg text-muted-foreground">
-              See what scientists are saying about their experience with SciCMPMATH.
+              See what scientists are saying about their experience with SciMSPT.
             </p>
           </div>
 
@@ -267,7 +267,7 @@ export default function LandingPage({ onNavigate }: LandingPageProps) {
                 Ready to Accelerate Your Research?
               </h2>
               <p className="text-lg sm:text-xl opacity-90 max-w-2xl mx-auto mb-8">
-                Join thousands of scientists who are already using SciCMPMATH 
+                Join thousands of scientists who are already using SciMSPT 
                 to democratize scientific discovery.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

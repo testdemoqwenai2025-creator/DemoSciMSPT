@@ -135,7 +135,7 @@ export default function AboutPage() {
                 </p>
                 
                 <p className="font-semibold text-foreground">
-                  That's why we built SciCMPMATH (AETH-1)—the GitHub for Scientific Computing.
+                  That's why we built SciMSPT—the GitHub for Scientific Computing.
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function AboutPage() {
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 className="text-3xl font-bold mb-4">Meet The Founder</h2>
             <p className="text-lg text-muted-foreground">
-              The visionary behind SciCMPMATH's mission to democratize scientific computing.
+              The visionary behind SciMSPT's mission to democratize scientific computing.
             </p>
           </div>
 
@@ -335,7 +335,7 @@ export default function AboutPage() {
                     className="rounded-full px-8 border-white/30 text-white hover:bg-white/10"
                     asChild
                   >
-                    <a href="https://github.com/testdemoqwenai2025-creator/SciCMPMATH" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/testdemoqwenai2025-creator/SciMSPT" target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-5 w-5" />
                       View on GitHub
                     </a>

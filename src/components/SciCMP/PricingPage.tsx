@@ -263,7 +263,7 @@ export default function PricingPage({ onNavigate }: PricingPageProps) {
               <HelpCircle className="w-12 h-12 text-primary mx-auto mb-4" />
               <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
               <p class="text-muted-foreground">
-                Everything you need to know about SciCMPMATH pricing
+                Everything you need to know about SciMSPT pricing
               </p>
             </div>
 
@@ -294,7 +294,7 @@ export default function PricingPage({ onNavigate }: PricingPageProps) {
             Start Your Scientific Journey Today
           </h2>
           <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8">
-            Join thousands of researchers who are accelerating discovery with SciCMPMATH.
+            Join thousands of researchers who are accelerating discovery with SciMSPT.
           </p>
           <Button
             size="lg"

@@ -38,14 +38,14 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <FlaskConical className="w-8 h-8 text-primary" />
-              <span className="font-bold text-lg">SciCMPMATH</span>
+              <span className="font-bold text-lg">SciMSPT</span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
               The GitHub for Scientific Computing. Democratizing discovery through unified computational platforms.
             </p>
             <div className="flex gap-3">
               <a
-                href="https://github.com/testdemoqwenai2025-creator/SciCMPMATH"
+                href="https://github.com/testdemoqwenai2025-creator/SciMSPT"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-muted hover:bg-accent transition-colors"
@@ -93,7 +93,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            © 2026 Endeavor Science (AETH-1). Made with
+            © 2026 SciMSPT - Endeavor Science. Made with
             <Heart className="w-4 h-4 text-red-500 fill-red-500" />
             for science.
           </p>

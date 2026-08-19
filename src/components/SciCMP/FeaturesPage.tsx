@@ -262,7 +262,7 @@ export default function FeaturesPage() {
       {/* CTA */}
       <section className="py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Experience SciCMPMATH?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Experience SciMSPT?</h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Start your free trial today and see why thousands of researchers 
             are making the switch.
