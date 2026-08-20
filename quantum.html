@@ -931,6 +931,570 @@
     }
 
     /* ============================================
+       QUANTUM HORIZONS: Short-Form Experience
+       ============================================ */
+    
+    .quantum-horizons-section {
+      background: linear-gradient(180deg, var(--bg-deep) 0%, #0a0a1a 50%, var(--bg-deep) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .quantum-horizons-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: 
+        radial-gradient(ellipse at 20% 50%, rgba(0, 229, 255, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 50%, rgba(167, 139, 250, 0.08) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    
+    .horizons-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .horizons-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    
+    .horizons-tag {
+      display: inline-block;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 12px;
+      color: var(--quantum-primary);
+      background: rgba(0, 229, 255, 0.1);
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      margin-bottom: 16px;
+    }
+    
+    .horizons-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--quantum-primary), #a78bfa, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+    
+    .horizons-subtitle {
+      font-size: 16px;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+    }
+    
+    /* Progress Bar */
+    .horizons-progress {
+      width: 100%;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      width: 16.66%;
+      background: linear-gradient(90deg, var(--quantum-primary), #a78bfa);
+      border-radius: 2px;
+      transition: width 0.5s ease;
+    }
+    
+    /* Controls */
+    .horizons-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+    
+    .horizons-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: rgba(0, 229, 255, 0.1);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      border-radius: 25px;
+      color: var(--quantum-primary);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+    }
+    
+    .horizons-btn:hover {
+      background: rgba(0, 229, 255, 0.2);
+      transform: scale(1.05);
+    }
+    
+    .horizons-counter {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    
+    /* Slides Container */
+    .horizons-slides {
+      position: relative;
+      min-height: 500px;
+    }
+    
+    .horizon-slide {
+      display: none;
+      animation: fadeInUp 0.6s ease;
+    }
+    
+    .horizon-slide.active {
+      display: block;
+    }
+    
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .slide-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      min-height: 400px;
+    }
+    
+    .slide-content.reverse {
+      direction: rtl;
+    }
+    
+    .slide-content.reverse > * {
+      direction: ltr;
+    }
+    
+    /* Slide Visuals */
+    .slide-visual {
+      aspect-ratio: 1;
+      max-width: 350px;
+      margin: 0 auto;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /* Era Visual */
+    .slide-era {
+      background: radial-gradient(circle, rgba(0, 229, 255, 0.2), transparent);
+      border-radius: 50%;
+      animation: pulse 3s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+    
+    .quantum-year {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 72px;
+      font-weight: 900;
+      color: var(--quantum-primary);
+      text-shadow: 0 0 40px rgba(0, 229, 255, 0.5);
+    }
+    
+    .year-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      color: var(--text-secondary);
+      letter-spacing: 4px;
+      margin-top: 8px;
+    }
+    
+    .floating-particles {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .particle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: var(--quantum-primary);
+      border-radius: 50%;
+      animation: float 4s ease-in-out infinite;
+    }
+    
+    .particle:nth-child(1) { top: 10%; left: 20%; animation-delay: 0s; }
+    .particle:nth-child(2) { top: 20%; right: 15%; animation-delay: 0.5s; }
+    .particle:nth-child(3) { bottom: 30%; left: 10%; animation-delay: 1s; }
+    .particle:nth-child(4) { bottom: 20%; right: 25%; animation-delay: 1.5s; }
+    .particle:nth-child(5) { top: 50%; left: 50%; animation-delay: 2s; }
+    
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.6; }
+      50% { transform: translate(10px, -20px) scale(1.2); opacity: 1; }
+    }
+    
+    /* Medical Visual */
+    .dna-helix-mini {
+      width: 100px;
+      height: 200px;
+      position: relative;
+    }
+    
+    .helix-strand {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-left: 4px solid var(--accent-green);
+      border-radius: 100px;
+    }
+    
+    .helix-strand:first-child {
+      transform: rotate(-15deg);
+      left: 20px;
+    }
+    
+    .helix-strand:last-child {
+      transform: rotate(15deg);
+      right: 20px;
+      border-color: #f472b6;
+    }
+    
+    /* Climate Visual */
+    .earth-visual {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .earth-core {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #4da8da, #10b981);
+      border-radius: 50%;
+      box-shadow: 0 0 60px rgba(74, 168, 218, 0.5);
+    }
+    
+    .earth-ring {
+      position: absolute;
+      border: 2px solid rgba(16, 185, 129, 0.4);
+      border-radius: 50%;
+      animation: orbit 8s linear infinite;
+    }
+    
+    .ring-1 { width: 120px; height: 120px; animation-duration: 4s; }
+    .ring-2 { width: 160px; height: 160px; animation-duration: 6s; animation-direction: reverse; }
+    .ring-3 { width: 200px; height: 200px; animation-duration: 8s; }
+    
+    @keyframes orbit {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    
+    /* Warning Visual */
+    .lock-animation {
+      font-size: 80px;
+      animation: shake 2s ease-in-out infinite;
+    }
+    
+    @keyframes shake {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-10deg); }
+      75% { transform: rotate(10deg); }
+    }
+    
+    /* Singularity Visual */
+    .brain-quantum {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .brain-core {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #f472b6, #a78bfa);
+      border-radius: 50%;
+      animation: think 2s ease-in-out infinite;
+    }
+    
+    @keyframes think {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    
+    .quantum-field {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 2px dashed rgba(167, 139, 250, 0.5);
+      border-radius: 50%;
+      animation: spin 10s linear infinite;
+    }
+    
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    
+    /* Final Choice Visual */
+    .path-choice {
+      text-align: center;
+    }
+    
+    .path {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 20px 30px;
+      border-radius: 16px;
+      margin: 0 16px;
+      transition: transform 0.3s ease;
+    }
+    
+    .path:hover {
+      transform: scale(1.1);
+    }
+    
+    .path-light {
+      background: rgba(16, 185, 129, 0.1);
+      border: 2px solid rgba(16, 185, 129, 0.3);
+    }
+    
+    .path-dark {
+      background: rgba(244, 114, 182, 0.1);
+      border: 2px solid rgba(244, 114, 182, 0.3);
+    }
+    
+    .path-icon {
+      font-size: 36px;
+    }
+    
+    .path-text {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    
+    .choice-question {
+      margin-top: 24px;
+      font-size: 18px;
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+    
+    /* Slide Text Content */
+    .slide-text {
+      padding: 20px;
+    }
+    
+    .slide-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+    
+    .slide-description {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 24px;
+    }
+    
+    .slide-stats {
+      display: flex;
+      gap: 24px;
+      margin-top: 24px;
+    }
+    
+    .stat-item {
+      text-align: center;
+    }
+    
+    .stat-value {
+      display: block;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--quantum-primary);
+    }
+    
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .slide-highlights {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .slide-highlights li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 0;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    
+    .highlight-icon {
+      color: var(--accent-green);
+      font-weight: bold;
+    }
+    
+    .impact-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 10px;
+      color: var(--accent-green);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    
+    .warning-box {
+      display: flex;
+      gap: 16px;
+      padding: 20px;
+      background: rgba(245, 158, 11, 0.1);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      border-radius: 12px;
+      margin-top: 24px;
+    }
+    
+    .warning-icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(245, 158, 11, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #f59e0b;
+      flex-shrink: 0;
+    }
+    
+    .warning-text {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    
+    .philosophy-quote {
+      margin-top: 24px;
+      padding: 20px;
+      background: rgba(167, 139, 250, 0.1);
+      border-left: 4px solid #a78bfa;
+      border-radius: 0 12px 12px 0;
+      font-style: italic;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+    
+    .horizons-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 32px;
+      margin-top: 24px;
+      font-size: 16px;
+    }
+    
+    .sources-note {
+      margin-top: 24px;
+      font-size: 12px;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    
+    /* Navigation Dots */
+    .horizons-dots {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 40px;
+    }
+    
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      padding: 0;
+    }
+    
+    .dot.active {
+      background: var(--quantum-primary);
+      transform: scale(1.2);
+      box-shadow: 0 0 15px rgba(0, 229, 255, 0.5);
+    }
+    
+    .dot:hover {
+      background: rgba(0, 229, 255, 0.5);
+    }
+    
+    /* Warning slide styling */
+    .slide-content.warning .slide-title {
+      color: #f59e0b;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+      .slide-content,
+      .slide-content.reverse {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        direction: ltr;
+      }
+      
+      .slide-visual {
+        max-width: 250px;
+      }
+      
+      .quantum-year {
+        font-size: 48px;
+      }
+      
+      .path-choice {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    }
+
+    /* ============================================
        QUANTUM CHEMISTRY SIMULATION WORKSPACE
        ============================================ */
     
@@ -1951,6 +2515,220 @@
     </div>
   </section>
 
+  <!-- ============================================
+       QUANTUM HORIZONS: Original Short-Form Experience
+       Based on 2025-2026 Research Data
+       ============================================ -->
+  <section class="section quantum-horizons-section" id="quantum-horizons">
+    <div class="horizons-container">
+      
+      <!-- Header -->
+      <div class="horizons-header">
+        <span class="horizons-tag">// FUTURE OUTLOOK</span>
+        <h2 class="horizons-title">🌌 Quantum Horizons: 2025 & Beyond</h2>
+        <p class="horizons-subtitle">An original exploration of quantum computing's impact on humanity</p>
+        
+        <!-- Progress Bar -->
+        <div class="horizons-progress">
+          <div class="progress-fill" id="horizonsProgress"></div>
+        </div>
+        
+        <!-- Controls -->
+        <div class="horizons-controls">
+          <button id="horizonsPlayBtn" onclick="toggleHorizons()" class="horizons-btn">
+            <span class="material-icons-round" id="playIcon">play_arrow</span>
+            <span id="playText">Auto-Play</span>
+          </button>
+          <span class="horizons-counter"><span id="currentSlide">1</span>/6</span>
+        </div>
+      </div>
+
+      <!-- Slides Container -->
+      <div class="horizons-slides" id="horizonsSlides">
+        
+        <!-- Slide 1: The Quantum Era Begins -->
+        <div class="horizon-slide active" data-slide="1">
+          <div class="slide-content">
+            <div class="slide-visual slide-era">
+              <div class="quantum-year">2025</div>
+              <div class="year-label">THE YEAR OF QUANTUM</div>
+              <div class="floating-particles">
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+                <span class="particle"></span>
+              </div>
+            </div>
+            <div class="slide-text">
+              <h3 class="slide-title">The Era Has Arrived</h3>
+              <p class="slide-description">
+                <strong>McKinsey declares 2025 "The Year of Quantum"</strong> — 
+                The global market has exploded to <strong>$3.5 billion</strong>, with projections 
+                reaching <strong>$5.3 billion</strong> by 2030.
+              </p>
+              <div class="slide-stats">
+                <div class="stat-item">
+                  <span class="stat-value">$3.5B</span>
+                  <span class="stat-label">Market Size 2025</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">15-30yr</span>
+                  <span class="stat-label">To Universal QC</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: The Promise - Medical Renaissance -->
+        <div class="horizon-slide" data-slide="2">
+          <div class="slide-content reverse">
+            <div class="slide-text">
+              <h3 class="slide-title">🏥 Medical Renaissance</h3>
+              <p class="slide-description">
+                Quantum computers simulate <strong>billions of molecular candidates</strong> in hours, 
+                not decades. Drug discovery that once took <strong>10+ years</strong> could shrink to months.
+              </p>
+              <ul class="slide-highlights">
+                <li><span class="highlight-icon">✓</span> Cancer drug optimization</li>
+                <li><span class="highlight-icon">✓</span> Protein folding solutions</li>
+                <li><span class="highlight-icon">✓</span> Personalized medicine at scale</li>
+              </ul>
+            </div>
+            <div class="slide-visual slide-medical">
+              <div class="dna-helix-mini">
+                <div class="helix-strand"></div>
+                <div class="helix-strand"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3: The Promise - Climate Solutions -->
+        <div class="horizon-slide" data-slide="3">
+          <div class="slide-content">
+            <div class="slide-visual slide-climate">
+              <div class="earth-visual">
+                <div class="earth-core"></div>
+                <div class="earth-ring ring-1"></div>
+                <div class="earth-ring ring-2"></div>
+                <div class="earth-ring ring-3"></div>
+              </div>
+            </div>
+            <div class="slide-text">
+              <h3 class="slide-title">🌍 Climate Reversal</h3>
+              <p class="slide-description">
+                IBM researchers are using quantum to discover <strong>low-cost carbon capture materials</strong>. 
+                Quantum optimizes energy grids, accelerates battery research, and models climate systems 
+                with unprecedented accuracy.
+              </p>
+              <div class="impact-badge">
+                <span class="badge-icon">↓</span>
+                Potential to reduce CO₂ by 40% through optimized materials
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 4: The Challenge - Encryption Apocalypse -->
+        <div class="horizon-slide" data-slide="4">
+          <div class="slide-content reverse warning">
+            <div class="slide-text">
+              <h3 class="slide-title">⚠️ The Encryption Threat</h3>
+              <p class="slide-description">
+                <strong>Quantum computers can break today's encryption.</strong> 
+                A "Cryptographically Relevant Quantum Computer" (CRQC) could expose 
+                <strong>all current data security</strong> within the decade.
+              </p>
+              <div class="warning-box">
+                <div class="warning-icon">!</div>
+                <div class="warning-text">
+                  <strong>The Reality:</strong> Nations are already harvesting encrypted data, 
+                  waiting for quantum decryption capabilities.
+                </div>
+              </div>
+            </div>
+            <div class="slide-visual slide-warning">
+              <div class="lock-animation">
+                <div class="lock-body">🔓</div>
+                <div class="lock-shackle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 5: The Challenge - AI Quantum Singularity -->
+        <div class="horizon-slide" data-slide="5">
+          <div class="slide-content warning">
+            <div class="slide-visual slide-singularity">
+              <div class="brain-quantum">
+                <div class="brain-core"></div>
+                <div class="quantum-field"></div>
+              </div>
+            </div>
+            <div class="slide-text">
+              <h3 class="slide-title">🧠 The Singularity Question</h3>
+              <p class="slide-description">
+                When <strong>AI meets Quantum Computing</strong>, we face an existential question: 
+                Are we building tools that will surpass human control? Experts warn of 
+                <strong>"twin threats"</strong> to data security and autonomy.
+              </p>
+              <div class="philosophy-quote">
+                "Quantum AI could either save humanity or end it — the difference lies in how we govern it today."
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 6: The Choice - Our Future -->
+        <div class="horizon-slide" data-slide="6">
+          <div class="slide-content final">
+            <div class="final-visual">
+              <div class="path-choice">
+                <div class="path path-light">
+                  <span class="path-icon">✨</span>
+                  <span class="path-text">Hope</span>
+                </div>
+                <div class="path path-dark">
+                  <span class="path-icon">⚡</span>
+                  <span class="path-text">Risk</span>
+                </div>
+                <div class="choice-question">Which path will humanity choose?</div>
+              </div>
+            </div>
+            <div class="slide-text">
+              <h3 class="slide-title">🚀 Your Quantum Journey Starts Here</h3>
+              <p class="slide-description">
+                SciMSPT gives you the tools to shape this future. Explore quantum chemistry simulations, 
+                understand the technology, and be part of the solution — not just a spectator.
+              </p>
+              <a href="#workspace" class="btn-primary horizons-cta">
+                <span class="material-icons-round">rocket_launch</span>
+                Start Exploring Free
+              </a>
+              <div class="sources-note">
+                Sources: McKinsey 2025, Forbes, NSF, Palo Alto Networks
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigation Dots -->
+      <div class="horizons-dots">
+        <button class="dot active" onclick="goToSlide(1)"></button>
+        <button class="dot" onclick="goToSlide(2)"></button>
+        <button class="dot" onclick="goToSlide(3)"></button>
+        <button class="dot" onclick="goToSlide(4)"></button>
+        <button class="dot" onclick="goToSlide(5)"></button>
+        <button class="dot" onclick="goToSlide(6)"></button>
+      </div>
+
+    </div>
+  </section>
+
   <!-- Platform Integrations Section -->
   <section class="section" id="platforms">
     <div class="section-header">
@@ -2832,6 +3610,135 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       link.click();
       document.body.removeChild(link);
     }
+    
+    // ============================================
+    // QUANTUM HORIZONS: Short-Form Experience Controller
+    // Auto-advancing slides like a video
+    // ============================================
+    
+    (function() {
+      let currentSlide = 1;
+      const totalSlides = 6;
+      let isPlaying = false;
+      let autoPlayInterval = null;
+      const SLIDE_DURATION = 8000; // 8 seconds per slide (like a short video)
+      
+      function updateSlide(slideNum) {
+        // Update slides
+        document.querySelectorAll('.horizon-slide').forEach(slide => {
+          slide.classList.remove('active');
+        });
+        
+        const targetSlide = document.querySelector(`.horizon-slide[data-slide="${slideNum}"]`);
+        if (targetSlide) {
+          targetSlide.classList.add('active');
+        }
+        
+        // Update progress bar
+        const progressFill = document.getElementById('horizonsProgress');
+        if (progressFill) {
+          progressFill.style.width = `${(slideNum / totalSlides) * 100}%`;
+        }
+        
+        // Update counter
+        const counter = document.getElementById('currentSlide');
+        if (counter) {
+          counter.textContent = slideNum;
+        }
+        
+        // Update dots
+        document.querySelectorAll('.horizons-dots .dot').forEach((dot, index) => {
+          dot.classList.toggle('active', index === slideNum - 1);
+        });
+        
+        currentSlide = slideNum;
+      }
+      
+      function nextSlide() {
+        if (currentSlide < totalSlides) {
+          updateSlide(currentSlide + 1);
+        } else {
+          // Loop back to beginning or stop
+          if (isPlaying) {
+            updateSlide(1); // Loop
+          } else {
+            stopAutoPlay(); // Stop at end
+          }
+        }
+      }
+      
+      function startAutoPlay() {
+        isPlaying = true;
+        autoPlayInterval = setInterval(nextSlide, SLIDE_DURATION);
+        
+        // Update button
+        const playIcon = document.getElementById('playIcon');
+        const playText = document.getElementById('playText');
+        if (playIcon) playIcon.textContent = 'pause';
+        if (playText) playText.textContent = 'Pause';
+      }
+      
+      function stopAutoPlay() {
+        isPlaying = false;
+        if (autoPlayInterval) {
+          clearInterval(autoPlayInterval);
+          autoPlayInterval = null;
+        }
+        
+        // Update button
+        const playIcon = document.getElementById('playIcon');
+        const playText = document.getElementById('playText');
+        if (playIcon) playIcon.textContent = 'play_arrow';
+        if (playText) playText.textContent = 'Auto-Play';
+      }
+      
+      // Expose functions globally
+      window.toggleHorizons = function() {
+        if (isPlaying) {
+          stopAutoPlay();
+        } else {
+          startAutoPlay();
+        }
+      };
+      
+      window.goToSlide = function(slideNum) {
+        updateSlide(slideNum);
+        // If user manually navigates, pause autoplay
+        if (isPlaying) {
+          stopAutoPlay();
+        }
+      };
+      
+      // Initialize on page load
+      document.addEventListener('DOMContentLoaded', () => {
+        updateSlide(1);
+        
+        // Optional: Auto-start after 2 seconds delay for dramatic effect
+        setTimeout(() => {
+          // Uncomment below to auto-start:
+          // startAutoPlay();
+        }, 2000);
+      });
+      
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') {
+          nextSlide();
+          if (isPlaying) stopAutoPlay();
+        } else if (e.key === 'ArrowLeft') {
+          if (currentSlide > 1) {
+            updateSlide(currentSlide - 1);
+            if (isPlaying) stopAutoPlay();
+          }
+        } else if (e.key === ' ') {
+          e.preventDefault();
+          toggleHorizons();
+        }
+      });
+      
+      console.log('%c[SciMSPT] Quantum Horizons: Short-Form Experience Initialized ✓', 
+        'color: #a78bfa; font-weight: bold;');
+    })();
   </script>
 </body>
 </html>
