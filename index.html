@@ -4036,7 +4036,9 @@
       }
       if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
         e.preventDefault();
-        openGetStartedModal();
+        // Keyboard shortcut disabled - no popup
+        // Redirect to quantum page instead
+        window.location.href = 'quantum.html';
       }
     });
     

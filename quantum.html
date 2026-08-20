@@ -2734,9 +2734,31 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       const overlay = document.getElementById('videoOverlay');
       
       if (video) {
-        video.play();
-        if (overlay) {
-          overlay.classList.add('hidden');
+        // Try to play with error handling
+        const playPromise = video.play();
+        
+        if (playPromise !== undefined) {
+          playPromise.then(() => {
+            // Playback started successfully
+            if (overlay) {
+              overlay.classList.add('hidden');
+            }
+          }).catch(error => {
+            // Autoplay was prevented, show controls instead
+            console.log('Video playback requires user interaction:', error);
+            video.controls = true;
+            if (overlay) {
+              overlay.classList.add('hidden');
+            }
+            // Show message to user
+            alert('Click the video play button in the video player controls to start playback.');
+          });
+        } else {
+          // Older browser, just try playing
+          video.play();
+          if (overlay) {
+            overlay.classList.add('hidden');
+          }
         }
       }
     }
