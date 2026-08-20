@@ -3683,7 +3683,7 @@
         </p>
         
         <div class="cta-buttons">
-          <a href="#" class="btn-primary" onclick="showNotification('Report downloading...')">
+          <a href="#" class="btn-primary" onclick="alert('Report download feature coming soon!')">
             <span class="material-icons-round">download</span>
             Get Full Report
           </a>
@@ -3873,30 +3873,8 @@
       }
     }
     
-    // Notification System
-    function showNotification(message) {
-      const notification = document.createElement('div');
-      notification.style.cssText = `
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        padding: 20px 28px;
-        background: linear-gradient(135deg, var(--accent-primary), var(--accent-tertiary));
-        color: var(--bg-deep);
-        border-radius: 14px;
-        font-weight: 600;
-        z-index: 9999;
-        animation: slideIn 0.4s ease;
-        box-shadow: 0 10px 40px rgba(0, 229, 255, 0.3);
-      `;
-      notification.textContent = message;
-      document.body.appendChild(notification);
-      
-      setTimeout(() => {
-        notification.style.animation = 'slideOut 0.3s ease forwards';
-        setTimeout(() => notification.remove(), 300);
-      }, 4000);
-    }
+    // Notification System - DISABLED (removed popup behavior)
+    // showNotification function removed - was creating toast popups
     
     // Add CSS animations
     const style = document.createElement('style');
