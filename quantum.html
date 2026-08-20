@@ -2376,7 +2376,594 @@
         padding: 28px 20px;
       }
     }
-  </style>
+  
+    /* ============================================
+       3D QUANTUM VISUALIZATIONS
+       Exceptional Dynamic Graphics
+       ============================================ */
+    
+    /* 3D Scene Container */
+    .scene-3d {
+      perspective: 1000px;
+      perspective-origin: center;
+      transform-style: preserve-3d;
+    }
+    
+    /* 3D Qubit Sphere - Bloch Sphere Visualization */
+    .qubit-sphere {
+      width: 280px;
+      height: 280px;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: sphereRotate3D 20s linear infinite;
+    }
+    
+    @keyframes sphereRotate3D {
+      from { transform: rotateX(0deg) rotateY(0deg); }
+      to { transform: rotateX(360deg) rotateY(360deg); }
+    }
+    
+    .sphere-core {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, 
+        rgba(0, 229, 255, 0.4) 0%, 
+        rgba(124, 58, 237, 0.2) 40%, 
+        rgba(10, 22, 40, 0.8) 100%);
+      box-shadow: 
+        0 0 60px rgba(0, 229, 255, 0.5),
+        inset 0 0 60px rgba(124, 58, 237, 0.3),
+        0 0 120px rgba(167, 139, 250, 0.3);
+      border: 2px solid rgba(0, 229, 255, 0.5);
+    }
+    
+    .sphere-ring {
+      position: absolute;
+      border: 2px solid;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      transform-style: preserve-3d;
+    }
+    
+    .ring-equator {
+      width: 320px;
+      height: 320px;
+      margin: -160px 0 0 -160px;
+      border-color: rgba(0, 229, 255, 0.6);
+      transform: rotateX(90deg);
+      animation: ringPulse 4s ease-in-out infinite;
+    }
+    
+    .ring-meridian {
+      width: 320px;
+      height: 320px;
+      margin: -160px 0 0 -160px;
+      border-color: rgba(167, 139, 250, 0.6);
+      transform: rotateY(90deg);
+      animation: ringPulse 4s ease-in-out infinite 1s;
+    }
+    
+    .ring-orbit {
+      width: 360px;
+      height: 360px;
+      margin: -180px 0 0 -180px;
+      border-color: rgba(236, 72, 153, 0.4);
+      border-style: dashed;
+      animation: ringPulse 6s ease-in-out infinite 2s;
+    }
+    
+    @keyframes ringPulse {
+      0%, 100% { opacity: 0.6; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+    
+    /* 3D Floating Qubits */
+    .qubit-3d {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: radial-gradient(circle, #00E5FF 0%, #7C3AED 100%);
+      border-radius: 50%;
+      box-shadow: 0 0 20px #00E5FF, 0 0 40px rgba(0, 229, 255, 0.5);
+      animation: qubitFloat3D 8s ease-in-out infinite;
+    }
+    
+    .qubit-3d:nth-child(1) { top: 10%; left: 20%; animation-delay: 0s; }
+    .qubit-3d:nth-child(2) { top: 25%; right: 15%; animation-delay: 1s; }
+    .qubit-3d:nth-child(3) { bottom: 20%; left: 15%; animation-delay: 2s; }
+    .qubit-3d:nth-child(4) { bottom: 30%; right: 25%; animation-delay: 3s; }
+    .qubit-3d:nth-child(5) { top: 45%; left: 5%; animation-delay: 4s; }
+    .qubit-3d:nth-child(6) { top: 60%; right: 10%; animation-delay: 5s; }
+    
+    @keyframes qubitFloat3D {
+      0%, 100% { 
+        transform: translateZ(0px) translateY(0px) scale(1);
+        opacity: 0.8;
+      }
+      25% { 
+        transform: translateZ(50px) translateY(-20px) scale(1.2);
+        opacity: 1;
+      }
+      50% { 
+        transform: translateZ(80px) translateY(-10px) scale(1);
+        opacity: 0.9;
+      }
+      75% { 
+        transform: translateZ(30px) translateY(-30px) scale(1.1);
+        opacity: 1;
+      }
+    }
+    
+    /* 3D Entanglement Lines */
+    .entanglement-line {
+      position: absolute;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #00E5FF, #a78bfa, transparent);
+      transform-origin: left center;
+      animation: entanglePulse 3s ease-in-out infinite;
+    }
+    
+    @keyframes entanglePulse {
+      0%, 100% { opacity: 0.3; scaleX: 0.8; }
+      50% { opacity: 1; scaleX: 1; }
+    }
+    
+    /* 3D DNA Helix for Medical Slide */
+    .dna-helix-3d {
+      width: 200px;
+      height: 300px;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: helixRotate 10s linear infinite;
+    }
+    
+    @keyframes helixRotate {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(360deg); }
+    }
+    
+    .helix-strand-3d {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+    }
+    
+    .helix-node {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      left: 50%;
+      margin-left: -6px;
+      box-shadow: 0 0 15px currentColor;
+    }
+    
+    .helix-node.strand-a {
+      background: #00E5FF;
+      color: #00E5FF;
+    }
+    
+    .helix-node.strand-b {
+      background: #EC4899;
+      color: #EC4899;
+    }
+    
+    /* Generate helix nodes dynamically via JS */
+    
+    /* 3D Earth for Climate Slide */
+    .earth-3d {
+      width: 250px;
+      height: 250px;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: earthRotate 30s linear infinite;
+    }
+    
+    @keyframes earthRotate {
+      from { transform: rotateY(0deg) rotateX(15deg); }
+      to { transform: rotateY(360deg) rotateX(15deg); }
+    }
+    
+    .earth-sphere {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: 
+        radial-gradient(circle at 30% 30%, rgba(34, 197, 94, 0.8) 0%, transparent 40%),
+        radial-gradient(circle at 70% 60%, rgba(59, 130, 246, 0.6) 0%, transparent 35%),
+        radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.4) 0%, rgba(10, 22, 40, 0.95) 70%);
+      box-shadow:
+        inset -30px -30px 60px rgba(0, 0, 0, 0.5),
+        inset 10px 10px 40px rgba(34, 197, 94, 0.3),
+        0 0 60px rgba(16, 185, 129, 0.4);
+      border: 2px solid rgba(16, 185, 129, 0.5);
+    }
+    
+    .atmosphere {
+      position: absolute;
+      width: 110%;
+      height: 110%;
+      top: -5%;
+      left: -5%;
+      border-radius: 50%;
+      background: radial-gradient(circle, transparent 60%, rgba(34, 197, 94, 0.2) 100%);
+      animation: atmosphereGlow 4s ease-in-out infinite;
+    }
+    
+    @keyframes atmosphereGlow {
+      0%, 100% { opacity: 0.5; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
+    }
+    
+    .carbon-particle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #10B981;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #10B981;
+      animation: carbonOrbit 8s linear infinite;
+    }
+    
+    @keyframes carbonOrbit {
+      from { transform: rotate(var(--orbit-angle)) translateX(150px) rotate(calc(-1 * var(--orbit-angle))); }
+      to { transform: rotate(calc(var(--orbit-angle) + 360deg)) translateX(150px) rotate(calc(-1 * var(--orbit-angle) - 360deg)); }
+    }
+    
+    /* 3D Lock for Encryption Slide */
+    .lock-3d {
+      width: 180px;
+      height: 220px;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: lockFloat 4s ease-in-out infinite;
+    }
+    
+    @keyframes lockFloat {
+      0%, 100% { transform: translateY(0) rotateY(0deg); }
+      50% { transform: translateY(-15px) rotateY(10deg); }
+    }
+    
+    .lock-body-3d {
+      width: 140px;
+      height: 160px;
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
+      border: 3px solid #ef4444;
+      border-radius: 16px;
+      box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.4),
+        inset 0 2px 10px rgba(239, 68, 68, 0.2),
+        0 0 30px rgba(239, 68, 68, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 64px;
+    }
+    
+    .lock-shackle-3d {
+      width: 80px;
+      height: 90px;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -40px;
+      border: 8px solid #ef4444;
+      border-bottom: none;
+      border-radius: 40px 40px 0 0;
+      animation: shackleShake 2s ease-in-out infinite;
+    }
+    
+    @keyframes shackleShake {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-5deg); }
+      75% { transform: rotate(5deg); }
+    }
+    
+    .warning-rays {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: 50%;
+      left: 50%;
+      margin: -150px 0 0 -150px;
+      pointer-events: none;
+    }
+    
+    .ray {
+      position: absolute;
+      width: 2px;
+      height: 100px;
+      background: linear-gradient(to bottom, rgba(239, 68, 68, 0.8), transparent);
+      left: 50%;
+      top: 0;
+      transform-origin: bottom center;
+      animation: rayPulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes rayPulse {
+      0%, 100% { opacity: 0.3; height: 80px; }
+      50% { opacity: 1; height: 120px; }
+    }
+    
+    /* 3D Brain for Singularity Slide */
+    .brain-3d {
+      width: 240px;
+      height: 240px;
+      position: relative;
+      transform-style: preserve-3d;
+      animation: brainFloat 6s ease-in-out infinite;
+    }
+    
+    @keyframes brainFloat {
+      0%, 100% { transform: rotateY(0deg) rotateX(10deg); }
+      33% { transform: rotateY(120deg) rotateX(5deg); }
+      66% { transform: rotateY(240deg) rotateX(15deg); }
+    }
+    
+    .brain-core-3d {
+      width: 100%;
+      height: 100%;
+      border-radius: 50% 50% 45% 45%;
+      background: 
+        radial-gradient(ellipse at 30% 30%, rgba(167, 139, 250, 0.6) 0%, transparent 50%),
+        radial-gradient(ellipse at 70% 70%, rgba(236, 72, 153, 0.4) 0%, transparent 50%),
+        linear-gradient(145deg, #1a1a2e 0%, #0f0f1a 100%);
+      box-shadow:
+        inset 0 0 60px rgba(167, 139, 250, 0.3),
+        0 0 80px rgba(167, 139, 250, 0.4),
+        0 0 120px rgba(236, 72, 153, 0.2);
+      border: 2px solid rgba(167, 139, 250, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .neural-network {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    
+    .neuron {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #a78bfa;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #a78bfa, 0 0 20px rgba(167, 139, 250, 0.5);
+      animation: neuronPulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes neuronPulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.5); opacity: 1; }
+    }
+    
+    .synapse {
+      position: absolute;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #a78bfa, #f472b6, transparent);
+      transform-origin: left center;
+      animation: synapseFire 3s ease-in-out infinite;
+    }
+    
+    @keyframes synapseFire {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+    
+    .quantum-field-3d {
+      position: absolute;
+      width: 350px;
+      height: 350px;
+      top: 50%;
+      left: 50%;
+      margin: -175px 0 0 -175px;
+      border: 2px dashed rgba(167, 139, 250, 0.3);
+      border-radius: 50%;
+      animation: fieldExpand 4s ease-in-out infinite;
+    }
+    
+    @keyframes fieldExpand {
+      0%, 100% { transform: scale(0.8); opacity: 0.3; }
+      50% { transform: scale(1.2); opacity: 0.8; }
+    }
+    
+    /* 3D Path Choice for Final Slide */
+    .path-choice-3d {
+      display: flex;
+      gap: 40px;
+      perspective: 800px;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+    }
+    
+    .path-3d {
+      width: 160px;
+      height: 200px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      cursor: pointer;
+      transform-style: preserve-3d;
+      position: relative;
+    }
+    
+    .path-3d:hover {
+      transform: translateY(-20px) rotateX(10deg) scale(1.1);
+    }
+    
+    .path-light-3d {
+      background: linear-gradient(145deg, rgba(16, 185, 129, 0.2) 0%, rgba(0, 229, 255, 0.1) 100%);
+      border: 2px solid rgba(16, 185, 129, 0.5);
+      box-shadow: 
+        0 20px 40px rgba(16, 185, 129, 0.2),
+        inset 0 0 30px rgba(16, 185, 129, 0.1);
+    }
+    
+    .path-light-3d:hover {
+      box-shadow: 
+        0 30px 60px rgba(16, 185, 129, 0.4),
+        inset 0 0 40px rgba(16, 185, 129, 0.2);
+    }
+    
+    .path-dark-3d {
+      background: linear-gradient(145deg, rgba(239, 68, 68, 0.2) 0%, rgba(124, 58, 237, 0.1) 100%);
+      border: 2px solid rgba(239, 68, 68, 0.5);
+      box-shadow: 
+        0 20px 40px rgba(239, 68, 68, 0.2),
+        inset 0 0 30px rgba(239, 68, 68, 0.1);
+    }
+    
+    .path-dark-3d:hover {
+      box-shadow: 
+        0 30px 60px rgba(239, 68, 68, 0.4),
+        inset 0 0 40px rgba(239, 68, 68, 0.2);
+    }
+    
+    .path-icon-3d {
+      font-size: 48px;
+      animation: iconPulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes iconPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    
+    .path-text-3d {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    
+    /* Audio Init Overlay */
+    .audio-init-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(3, 8, 16, 0.95);
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+      backdrop-filter: blur(10px);
+    }
+    
+    .audio-init-overlay.hidden {
+      display: none;
+    }
+    
+    .audio-init-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 28px;
+      font-weight: 900;
+      background: linear-gradient(135deg, #00E5FF, #a78bfa, #f472b6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+    }
+    
+    .audio-init-subtitle {
+      color: var(--text-secondary);
+      font-size: 16px;
+      text-align: center;
+      max-width: 400px;
+    }
+    
+    .audio-init-btn {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 16px 32px;
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.2), rgba(124, 58, 237, 0.2));
+      border: 2px solid rgba(0, 229, 255, 0.5);
+      border-radius: 50px;
+      color: #00E5FF;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      animation: initBtnPulse 2s ease-in-out infinite;
+    }
+    
+    .audio-init-btn:hover {
+      background: linear-gradient(135deg, rgba(0, 229, 255, 0.3), rgba(124, 58, 237, 0.3));
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(0, 229, 255, 0.4);
+    }
+    
+    @keyframes initBtnPulse {
+      0%, 100% { box-shadow: 0 0 20px rgba(0, 229, 255, 0.3); }
+      50% { box-shadow: 0 0 40px rgba(0, 229, 255, 0.6); }
+    }
+    
+    /* Responsive 3D Elements */
+    @media (max-width: 768px) {
+      .qubit-sphere {
+        width: 200px;
+        height: 200px;
+      }
+      
+      .ring-equator, .ring-meridian {
+        width: 240px;
+        height: 240px;
+        margin: -120px 0 0 -120px;
+      }
+      
+      .ring-orbit {
+        width: 270px;
+        height: 270px;
+        margin: -135px 0 0 -135px;
+      }
+      
+      .dna-helix-3d,
+      .earth-3d,
+      .brain-3d {
+        width: 180px;
+        height: 180px;
+      }
+      
+      .lock-3d {
+        width: 140px;
+        height: 170px;
+      }
+      
+      .lock-body-3d {
+        width: 110px;
+        height: 130px;
+        left: 15px;
+      }
+      
+      .path-choice-3d {
+        gap: 24px;
+      }
+      
+      .path-3d {
+        width: 130px;
+        height: 160px;
+      }
+    }
+
+</style>
 </head>
 <body>
   <!-- Quantum Particle Field Background -->
@@ -2580,6 +3167,24 @@
        Based on 2025-2026 Research Data
        ============================================ -->
   <section class="section quantum-horizons-section" id="quantum-horizons">
+    
+    <!-- Audio Initialization Overlay (Browser Autoplay Fix) -->
+    <div class="audio-init-overlay" id="audioInitOverlay">
+      <div class="qubit-sphere" style="transform: scale(0.6); margin-bottom: 30px;">
+        <div class="sphere-core"></div>
+        <div class="sphere-ring ring-equator"></div>
+        <div class="sphere-ring ring-meridian"></div>
+        <div class="sphere-ring ring-orbit"></div>
+      </div>
+      <h2 class="audio-init-title">🌌 Quantum Horizons</h2>
+      <p class="audio-init-subtitle">Experience quantum computing's future with professional narration and stunning 3D visualizations</p>
+      <button class="audio-init-btn" onclick="initAudioAndStart()">
+        <span class="material-icons-round">play_circle_filled</span>
+        Start Experience with Sound
+      </button>
+      <p style="color: #6b7280; font-size: 12px; margin-top: 16px;">Click to enable audio playback</p>
+    </div>
+    
     <div class="horizons-container">
       
       <!-- Header -->
@@ -2635,17 +3240,23 @@
         
         <!-- Slide 1: The Quantum Era Begins -->
         <div class="horizon-slide active" data-slide="1">
-          <div class="slide-content">
+          <div class="slide-content scene-3d">
             <div class="slide-visual slide-era">
-              <div class="quantum-year">2025</div>
-              <div class="year-label">THE YEAR OF QUANTUM</div>
-              <div class="floating-particles">
-                <span class="particle"></span>
-                <span class="particle"></span>
-                <span class="particle"></span>
-                <span class="particle"></span>
-                <span class="particle"></span>
+              <!-- 3D Qubit Sphere (Bloch Sphere) -->
+              <div class="qubit-sphere">
+                <div class="sphere-core"></div>
+                <div class="sphere-ring ring-equator"></div>
+                <div class="sphere-ring ring-meridian"></div>
+                <div class="sphere-ring ring-orbit"></div>
+                <div class="qubit-3d"></div>
+                <div class="qubit-3d"></div>
+                <div class="qubit-3d"></div>
+                <div class="qubit-3d"></div>
+                <div class="qubit-3d"></div>
+                <div class="qubit-3d"></div>
               </div>
+              <div class="quantum-year" style="position: relative; z-index: 10; margin-top: 20px;">2025</div>
+              <div class="year-label" style="position: relative; z-index: 10;">THE YEAR OF QUANTUM</div>
             </div>
             <div class="slide-text">
               <h3 class="slide-title">The Era Has Arrived</h3>
@@ -2683,10 +3294,11 @@
                 <li><span class="highlight-icon">✓</span> Personalized medicine at scale</li>
               </ul>
             </div>
-            <div class="slide-visual slide-medical">
-              <div class="dna-helix-mini">
-                <div class="helix-strand"></div>
-                <div class="helix-strand"></div>
+            <div class="slide-visual slide-medical scene-3d">
+              <!-- 3D DNA Helix -->
+              <div class="dna-helix-3d" id="dnaHelix3D">
+                <div class="helix-strand-3d" id="helixStrandA"></div>
+                <div class="helix-strand-3d" id="helixStrandB"></div>
               </div>
             </div>
           </div>
@@ -2695,12 +3307,16 @@
         <!-- Slide 3: The Promise - Climate Solutions -->
         <div class="horizon-slide" data-slide="3">
           <div class="slide-content">
-            <div class="slide-visual slide-climate">
-              <div class="earth-visual">
-                <div class="earth-core"></div>
-                <div class="earth-ring ring-1"></div>
-                <div class="earth-ring ring-2"></div>
-                <div class="earth-ring ring-3"></div>
+            <div class="slide-visual slide-climate scene-3d">
+              <!-- 3D Earth with Carbon Capture -->
+              <div class="earth-3d" id="earth3D">
+                <div class="atmosphere"></div>
+                <div class="earth-sphere"></div>
+                <div class="carbon-particle" style="--orbit-angle: 0deg;"></div>
+                <div class="carbon-particle" style="--orbit-angle: 72deg;"></div>
+                <div class="carbon-particle" style="--orbit-angle: 144deg;"></div>
+                <div class="carbon-particle" style="--orbit-angle: 216deg;"></div>
+                <div class="carbon-particle" style="--orbit-angle: 288deg;"></div>
               </div>
             </div>
             <div class="slide-text">
@@ -2736,10 +3352,21 @@
                 </div>
               </div>
             </div>
-            <div class="slide-visual slide-warning">
-              <div class="lock-animation">
-                <div class="lock-body">🔓</div>
-                <div class="lock-shackle"></div>
+            <div class="slide-visual slide-warning scene-3d">
+              <!-- 3D Lock with Warning Rays -->
+              <div class="warning-rays" id="warningRays">
+                <div class="ray" style="transform: rotate(0deg);"></div>
+                <div class="ray" style="transform: rotate(45deg); animation-delay: 0.25s;"></div>
+                <div class="ray" style="transform: rotate(90deg); animation-delay: 0.5s;"></div>
+                <div class="ray" style="transform: rotate(135deg); animation-delay: 0.75s;"></div>
+                <div class="ray" style="transform: rotate(180deg); animation-delay: 1s;"></div>
+                <div class="ray" style="transform: rotate(225deg); animation-delay: 1.25s;"></div>
+                <div class="ray" style="transform: rotate(270deg); animation-delay: 1.5s;"></div>
+                <div class="ray" style="transform: rotate(315deg); animation-delay: 1.75s;"></div>
+              </div>
+              <div class="lock-3d">
+                <div class="lock-shackle-3d"></div>
+                <div class="lock-body-3d">🔓</div>
               </div>
             </div>
           </div>
@@ -2748,10 +3375,13 @@
         <!-- Slide 5: The Challenge - AI Quantum Singularity -->
         <div class="horizon-slide" data-slide="5">
           <div class="slide-content warning">
-            <div class="slide-visual slide-singularity">
-              <div class="brain-quantum">
-                <div class="brain-core"></div>
-                <div class="quantum-field"></div>
+            <div class="slide-visual slide-singularity scene-3d">
+              <!-- 3D Brain with Neural Network -->
+              <div class="brain-3d" id="brain3D">
+                <div class="quantum-field-3d"></div>
+                <div class="brain-core-3d">
+                  <div class="neural-network" id="neuralNetwork"></div>
+                </div>
               </div>
             </div>
             <div class="slide-text">
@@ -2772,17 +3402,19 @@
         <div class="horizon-slide" data-slide="6">
           <div class="slide-content final">
             <div class="final-visual">
-              <div class="path-choice">
-                <div class="path path-light">
-                  <span class="path-icon">✨</span>
-                  <span class="path-text">Hope</span>
+              <div class="path-choice-3d">
+                <div class="path-3d path-light-3d">
+                  <span class="path-icon-3d">✨</span>
+                  <span class="path-text-3d" style="color: #10B981;">Hope</span>
+                  <div style="font-size: 12px; color: rgba(16, 185, 129, 0.7); text-align: center;">Medical breakthroughs<br>Climate solutions<br>Human advancement</div>
                 </div>
-                <div class="path path-dark">
-                  <span class="path-icon">⚡</span>
-                  <span class="path-text">Risk</span>
+                <div class="path-3d path-dark-3d">
+                  <span class="path-icon-3d">⚡</span>
+                  <span class="path-text-3d" style="color: #ef4444;">Risk</span>
+                  <div style="font-size: 12px; color: rgba(239, 68, 68, 0.7); text-align: center;">Encryption collapse<br>AI singularity<br>Inequality divide</div>
                 </div>
-                <div class="choice-question">Which path will humanity choose?</div>
               </div>
+              <div class="choice-question" style="margin-top: 30px;">Which path will humanity choose?</div>
             </div>
             <div class="slide-text">
               <h3 class="slide-title">🚀 Your Quantum Journey Starts Here</h3>
@@ -3701,7 +4333,42 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
     // ============================================
     // QUANTUM HORIZONS: Short-Form Experience Controller
     // Auto-advancing slides like a video WITH NARRATION
+    // WITH 3D DYNAMIC VISUALIZATIONS
     // ============================================
+    
+    // Global audio initialization flag
+    let audioInitialized = false;
+    
+    // Initialize audio on user interaction (fixes browser autoplay)
+    window.initAudioAndStart = function() {
+      const overlay = document.getElementById('audioInitOverlay');
+      if (overlay) {
+        overlay.classList.add('hidden');
+        setTimeout(() => overlay.style.display = 'none', 300);
+      }
+      
+      // Initialize all audio elements with silent play to unlock audio context
+      const audioElements = document.querySelectorAll('audio');
+      audioElements.forEach(audio => {
+        audio.volume = 0.01;
+        audio.play().then(() => {
+          audio.pause();
+          audio.currentTime = 0;
+          audio.volume = 1;
+        }).catch(e => console.log('Audio init:', e));
+      });
+      
+      audioInitialized = true;
+      console.log('%c[SciMSPT] Audio Initialized ✓', 'color: #10b981; font-weight: bold;');
+      
+      // Auto-start the experience
+      startAutoPlay();
+      playSlideAudio(1);
+      
+      // Generate dynamic 3D elements
+      generateDNAHelix();
+      generateNeuralNetwork();
+    };
     
     (function() {
       let currentSlide = 1;
@@ -3736,7 +4403,7 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       
       // Play audio for specific slide
       function playSlideAudio(slideNum) {
-        if (!isNarrationOn) return;
+        if (!isNarrationOn || !audioInitialized) return;
         
         stopCurrentAudio();
         
@@ -3744,14 +4411,14 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         if (audio) {
           currentAudio = audio;
           audio.currentTime = 0;
-          audio.play().catch(e => {
-            console.log('Audio playback requires user interaction:', e);
+          audio.play().then(() => {
+            console.log(`%c[SciMSPT] Playing narration for Slide ${slideNum}`, 'color: #10b981;');
+            updateAudioIndicator(true);
+          }).catch(e => {
+            console.log('Audio playback error:', e);
           });
           
-          // Update audio indicator
-          updateAudioIndicator(true);
-          
-          // When audio ends, keep indicator active until next action
+          // When audio ends, update indicator
           audio.onended = () => {
             updateAudioIndicator(false);
           };
@@ -3785,7 +4452,7 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
           if (narrationBtn) narrationBtn.classList.remove('muted');
           
           // Play audio for current slide
-          if (currentSlide) {
+          if (currentSlide && audioInitialized) {
             playSlideAudio(currentSlide);
           }
         } else {
@@ -3831,7 +4498,7 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
           dot.classList.toggle('active', index === slideNum - 1);
         });
         
-        // Play narration for this slide
+        // Play narration for this slide (if changed)
         if (slideNum !== currentSlide) {
           playSlideAudio(slideNum);
         }
@@ -3863,7 +4530,7 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         if (playText) playText.textContent = 'Pause';
         
         // Start narration for first/current slide
-        if (isNarrationOn && currentSlide) {
+        if (isNarrationOn && currentSlide && audioInitialized) {
           playSlideAudio(currentSlide);
         }
       }
@@ -3880,13 +4547,15 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         const playText = document.getElementById('playText');
         if (playIcon) playIcon.textContent = 'play_arrow';
         if (playText) playText.textContent = 'Auto-Play';
-        
-        // Don't stop audio when pausing - let it continue
-        // User can toggle narration off separately if desired
       }
       
       // Expose functions globally
       window.toggleHorizons = function() {
+        if (!audioInitialized) {
+          initAudioAndStart();
+          return;
+        }
+        
         if (isPlaying) {
           stopAutoPlay();
         } else {
@@ -3902,6 +4571,109 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         }
       };
       
+      // ============================================
+      // DYNAMIC 3D ELEMENT GENERATION
+      // ============================================
+      
+      // Generate DNA Helix nodes dynamically
+      window.generateDNAHelix = function() {
+        const strandA = document.getElementById('helixStrandA');
+        const strandB = document.getElementById('helixStrandB');
+        
+        if (!strandA || !strandB) return;
+        
+        const nodeCount = 12;
+        
+        for (let i = 0; i < nodeCount; i++) {
+          const angle = (i / nodeCount) * Math.PI * 4;
+          const y = (i / nodeCount) * 280 + 10;
+          const x = Math.sin(angle) * 40;
+          const z = Math.cos(angle) * 40;
+          
+          // Strand A node
+          const nodeA = document.createElement('div');
+          nodeA.className = 'helix-node strand-a';
+          nodeA.style.cssText = `
+            top: ${y}px;
+            left: calc(50% + ${x}px - 6px);
+            transform: translateZ(${z}px);
+            animation-delay: ${i * 0.2}s;
+          `;
+          strandA.appendChild(nodeA);
+          
+          // Strand B node (opposite phase)
+          const nodeB = document.createElement('div');
+          nodeB.className = 'helix-node strand-b';
+          nodeB.style.cssText = `
+            top: ${y}px;
+            left: calc(50% + ${-x}px - 6px);
+            transform: translateZ(${-z}px);
+            animation-delay: ${i * 0.2 + 0.1}s;
+          `;
+          strandB.appendChild(nodeB);
+        }
+        
+        console.log('%c[SciMSPT] DNA Helix 3D Generated ✓', 'color: #ec4899;');
+      };
+      
+      // Generate Neural Network dynamically
+      window.generateNeuralNetwork = function() {
+        const container = document.getElementById('neuralNetwork');
+        if (!container) return;
+        
+        const neurons = [];
+        const neuronCount = 20;
+        
+        // Create neurons at random positions within brain shape
+        for (let i = 0; i < neuronCount; i++) {
+          const neuron = document.createElement('div');
+          neuron.className = 'neuron';
+          
+          // Position in elliptical brain shape
+          const angle = Math.random() * Math.PI * 2;
+          const radiusX = 80 + Math.random() * 30;
+          const radiusY = 100 + Math.random() * 20;
+          const x = Math.cos(angle) * radiusX + 120;
+          const y = Math.sin(angle) * radiusY + 120;
+          
+          neuron.style.left = `${x}px`;
+          neuron.style.top = `${y}px`;
+          neuron.style.animationDelay = `${Math.random() * 2}s`;
+          
+          container.appendChild(neuron);
+          neurons.push({ el: neuron, x, y });
+        }
+        
+        // Create synapses between nearby neurons
+        for (let i = 0; i < neurons.length; i++) {
+          for (let j = i + 1; j < neurons.length; j++) {
+            const dx = neurons[i].x - neurons[j].x;
+            const dy = neurons[i].y - neurons[j].y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance < 80 && Math.random() > 0.5) {
+              const synapse = document.createElement('div');
+              synapse.className = 'synapse';
+              
+              const length = distance;
+              const angle = Math.atan2(dy, dx) * 180 / Math.PI;
+              
+              synapse.style.cssText = `
+                left: ${neurons[j].x}px;
+                top: ${neurons[j].y}px;
+                width: ${length}px;
+                transform: rotate(${angle}deg);
+                animation-delay: ${Math.random() * 3}s;
+              `;
+              
+              container.appendChild(synapse);
+            }
+          }
+        }
+        
+        console.log('%c[SciMSPT] Neural Network 3D Generated ✓', 'color: #a78bfa;');
+      };
+      
       // Initialize on page load
       document.addEventListener('DOMContentLoaded', () => {
         updateSlide(1);
@@ -3912,15 +4684,18 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
           narrationBtn.classList.add('active');
         }
         
-        // Optional: Auto-start after 2 seconds delay for dramatic effect
-        setTimeout(() => {
-          // Uncomment below to auto-start:
-          // startAutoPlay();
-        }, 2000);
+        // Show audio init overlay
+        const overlay = document.getElementById('audioInitOverlay');
+        if (overlay) {
+          overlay.style.display = 'flex';
+        }
       });
       
       // Keyboard navigation
       document.addEventListener('keydown', (e) => {
+        // Don't capture keys if typing in input
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+        
         if (e.key === 'ArrowRight') {
           nextSlide();
           if (isPlaying) stopAutoPlay();
@@ -3938,9 +4713,9 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         }
       });
       
-      console.log('%c[SciMSPT] Quantum Horizons: Short-Form Experience With Narration Initialized ✓', 
+      console.log('%c[SciMSPT] Quantum Horizons: 3D Experience With Narration Ready ✓', 
         'color: #a78bfa; font-weight: bold;');
-      console.log('%c[SciMSPT] Press M to toggle narration | SPACE to play/pause', 
+      console.log('%c[SciMSPT] Press SPACE to start | M for narration | Arrow keys to navigate', 
         'color: #6b7280; font-size: 12px;');
     })();
   </script>
