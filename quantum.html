@@ -1101,6 +1101,239 @@
       opacity: 0.4;
     }
     
+    /* ============================================
+       QUANTUM SLIDE IMAGES - Dynamic Visual Content
+       ============================================ */
+    
+    .quantum-image-container {
+      position: relative;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 
+        0 25px 50px rgba(0, 229, 255, 0.2),
+        0 15px 30px rgba(124, 58, 237, 0.15);
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      animation: imageFloatIn 1s ease-out forwards;
+    }
+    
+    @keyframes imageFloatIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.9);
+        filter: blur(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+      }
+    }
+    
+    .quantum-slide-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 20px;
+      transition: all 0.6s ease;
+      filter: brightness(1) contrast(1.1) saturate(1.2);
+    }
+    
+    .quantum-image-container:hover {
+      transform: scale(1.05) rotateY(5deg);
+      box-shadow: 
+        0 35px 70px rgba(0, 229, 255, 0.3),
+        0 20px 40px rgba(124, 58, 237, 0.25);
+    }
+    
+    .quantum-image-container:hover .quantum-slide-image {
+      filter: brightness(1.1) contrast(1.2) saturate(1.4);
+    }
+    
+    /* Image Overlays for different themes */
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(0, 229, 255, 0.1) 0%,
+        transparent 50%,
+        rgba(124, 58, 237, 0.1) 100%
+      );
+      pointer-events: none;
+      border-radius: 20px;
+      transition: background 0.3s ease;
+    }
+    
+    .medical-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(236, 72, 153, 0.15) 0%,
+        transparent 50%,
+        rgba(16, 185, 129, 0.1) 100%
+      );
+    }
+    
+    .climate-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(16, 185, 129, 0.2) 0%,
+        transparent 50%,
+        rgba(34, 197, 94, 0.15) 100%
+      );
+    }
+    
+    .warning-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(239, 68, 68, 0.2) 0%,
+        transparent 50%,
+        rgba(220, 38, 38, 0.15) 100%
+      );
+    }
+    
+    .singularity-overlay {
+      background: linear-gradient(
+        135deg,
+        rgba(167, 139, 250, 0.2) 0%,
+        transparent 50%,
+        rgba(236, 72, 153, 0.15) 100%
+      );
+    }
+    
+    .journey-overlay {
+      background: linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(10, 22, 40, 0.4) 100%
+      );
+    }
+    
+    /* Image Glow Effects */
+    .image-glow {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(
+        circle at center,
+        rgba(0, 229, 255, 0.15) 0%,
+        transparent 70%
+      );
+      pointer-events: none;
+      animation: glowPulse 4s ease-in-out infinite;
+    }
+    
+    .pink-glow {
+      background: radial-gradient(
+        circle at center,
+        rgba(236, 72, 153, 0.2) 0%,
+        transparent 70%
+      );
+    }
+    
+    .green-glow {
+      background: radial-gradient(
+        circle at center,
+        rgba(16, 185, 129, 0.25) 0%,
+        transparent 70%
+      );
+    }
+    
+    .red-glow {
+      background: radial-gradient(
+        circle at center,
+        rgba(239, 68, 68, 0.3) 0%,
+        transparent 70%
+      );
+      animation: glowPulse 2s ease-in-out infinite;
+    }
+    
+    .purple-glow {
+      background: radial-gradient(
+        circle at center,
+        rgba(167, 139, 250, 0.25) 0%,
+        transparent 70%
+      );
+      animation: glowPulse 3s ease-in-out infinite;
+    }
+    
+    @keyframes glowPulse {
+      0%, 100% { 
+        opacity: 0.5; 
+        transform: scale(1); 
+      }
+      50% { 
+        opacity: 1; 
+        transform: scale(1.1); 
+      }
+    }
+    
+    /* Special Animation Classes */
+    .warning-shake {
+      animation: warningShake 8s ease-in-out infinite;
+    }
+    
+    @keyframes warningShake {
+      0%, 90%, 100% { transform: translateX(0); }
+      92%, 96% { transform: translateX(-5px) rotate(-1deg); }
+      94%, 98% { transform: translateX(5px) rotate(1deg); }
+    }
+    
+    .pulse-glow {
+      animation: pulseGlow 3s ease-in-out infinite;
+    }
+    
+    @keyframes pulseGlow {
+      0%, 100% { 
+        box-shadow: 
+          0 25px 50px rgba(167, 139, 250, 0.2),
+          0 15px 30px rgba(236, 72, 153, 0.15);
+      }
+      50% { 
+        box-shadow: 
+          0 35px 70px rgba(167, 139, 250, 0.4),
+          0 25px 50px rgba(236, 72, 153, 0.3);
+      }
+    }
+    
+    .journey-fade {
+      animation: journeyFade 1.5s ease-out forwards;
+    }
+    
+    @keyframes journeyFade {
+      from {
+        opacity: 0;
+        transform: scale(1.1);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    
+    /* Responsive Images */
+    @media (max-width: 768px) {
+      .quantum-image-container {
+        max-width: 300px;
+      }
+      
+      .quantum-slide-image {
+        border-radius: 16px;
+      }
+      
+      .image-overlay,
+      .image-glow {
+        border-radius: 16px;
+      }
+    }
+    
     .horizons-counter {
       font-family: 'JetBrains Mono', monospace;
       color: var(--text-muted);
@@ -3212,34 +3445,34 @@
         </div>
       </div>
 
-      <!-- Hidden Audio Elements for Narration (Multiple Sources for Compatibility) -->
+      <!-- Hidden Audio Elements for Narration (Natural Voice v2) -->
       <audio id="narrationAudio" preload="auto">
-        <source src="audio-narration/mp3/intro.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/intro.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_01_era.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_01_era.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio1" preload="auto" data-slide="1">
-        <source src="audio-narration/mp3/slide_01_era.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_01_era.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_01_era.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_01_era.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio2" preload="auto" data-slide="2">
-        <source src="audio-narration/mp3/slide_02_medical.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_02_medical.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_02_medical.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_02_medical.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio3" preload="auto" data-slide="3">
-        <source src="audio-narration/mp3/slide_03_climate.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_03_climate.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_03_climate.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_03_climate.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio4" preload="auto" data-slide="4">
-        <source src="audio-narration/mp3/slide_04_encryption.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_04_encryption.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_04_encryption.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_04_encryption.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio5" preload="auto" data-slide="5">
-        <source src="audio-narration/mp3/slide_05_singularity.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_05_singularity.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_05_singularity.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_05_singularity.mp3" type="audio/mpeg">
       </audio>
       <audio id="slideAudio6" preload="auto" data-slide="6">
-        <source src="audio-narration/mp3/slide_06_journey.mp3" type="audio/mpeg">
-        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3/slide_06_journey.mp3" type="audio/mpeg">
+        <source src="audio-narration/mp3-v2/slide_06_journey.mp3" type="audio/mpeg">
+        <source src="https://raw.githubusercontent.com/testdemoqwenai2025-creator/DemoSciMSPT/main/audio-narration/mp3-v2/slide_06_journey.mp3" type="audio/mpeg">
       </audio>
 
       <!-- Slides Container -->
@@ -3249,21 +3482,20 @@
         <div class="horizon-slide active" data-slide="1">
           <div class="slide-content scene-3d">
             <div class="slide-visual slide-era">
-              <!-- 3D Qubit Sphere (Bloch Sphere) -->
-              <div class="qubit-sphere">
+              <!-- REAL IMAGE: Quantum Computer -->
+              <div class="quantum-image-container" id="imageContainer1">
+                <img src="images/quantum-slides/slide_01_era.png" alt="Quantum Computing Era 2025" class="quantum-slide-image" loading="lazy">
+                <div class="image-overlay"></div>
+                <div class="image-glow"></div>
+              </div>
+              <!-- 3D Qubit Sphere overlay -->
+              <div class="qubit-sphere" style="position: absolute; top: -20px; right: -20px; width: 150px; height: 150px; opacity: 0.6;">
                 <div class="sphere-core"></div>
                 <div class="sphere-ring ring-equator"></div>
                 <div class="sphere-ring ring-meridian"></div>
-                <div class="sphere-ring ring-orbit"></div>
-                <div class="qubit-3d"></div>
-                <div class="qubit-3d"></div>
-                <div class="qubit-3d"></div>
-                <div class="qubit-3d"></div>
-                <div class="qubit-3d"></div>
-                <div class="qubit-3d"></div>
               </div>
-              <div class="quantum-year" style="position: relative; z-index: 10; margin-top: 20px;">2025</div>
-              <div class="year-label" style="position: relative; z-index: 10;">THE YEAR OF QUANTUM</div>
+              <div class="quantum-year">2025</div>
+              <div class="year-label">THE YEAR OF QUANTUM</div>
             </div>
             <div class="slide-text">
               <h3 class="slide-title">The Era Has Arrived</h3>
@@ -3302,10 +3534,11 @@
               </ul>
             </div>
             <div class="slide-visual slide-medical scene-3d">
-              <!-- 3D DNA Helix -->
-              <div class="dna-helix-3d" id="dnaHelix3D">
-                <div class="helix-strand-3d" id="helixStrandA"></div>
-                <div class="helix-strand-3d" id="helixStrandB"></div>
+              <!-- REAL IMAGE: Medical/Drug Discovery -->
+              <div class="quantum-image-container" id="imageContainer2">
+                <img src="images/quantum-slides/slide_02_medical.png" alt="Medical Renaissance - Drug Discovery" class="quantum-slide-image" loading="lazy">
+                <div class="image-overlay medical-overlay"></div>
+                <div class="image-glow pink-glow"></div>
               </div>
             </div>
           </div>
@@ -3315,15 +3548,11 @@
         <div class="horizon-slide" data-slide="3">
           <div class="slide-content">
             <div class="slide-visual slide-climate scene-3d">
-              <!-- 3D Earth with Carbon Capture -->
-              <div class="earth-3d" id="earth3D">
-                <div class="atmosphere"></div>
-                <div class="earth-sphere"></div>
-                <div class="carbon-particle" style="--orbit-angle: 0deg;"></div>
-                <div class="carbon-particle" style="--orbit-angle: 72deg;"></div>
-                <div class="carbon-particle" style="--orbit-angle: 144deg;"></div>
-                <div class="carbon-particle" style="--orbit-angle: 216deg;"></div>
-                <div class="carbon-particle" style="--orbit-angle: 288deg;"></div>
+              <!-- REAL IMAGE: Climate/Earth -->
+              <div class="quantum-image-container" id="imageContainer3">
+                <img src="images/quantum-slides/slide_03_climate.png" alt="Climate Reversal - Earth Protection" class="quantum-slide-image" loading="lazy">
+                <div class="image-overlay climate-overlay"></div>
+                <div class="image-glow green-glow"></div>
               </div>
             </div>
             <div class="slide-text">
@@ -3360,20 +3589,11 @@
               </div>
             </div>
             <div class="slide-visual slide-warning scene-3d">
-              <!-- 3D Lock with Warning Rays -->
-              <div class="warning-rays" id="warningRays">
-                <div class="ray" style="transform: rotate(0deg);"></div>
-                <div class="ray" style="transform: rotate(45deg); animation-delay: 0.25s;"></div>
-                <div class="ray" style="transform: rotate(90deg); animation-delay: 0.5s;"></div>
-                <div class="ray" style="transform: rotate(135deg); animation-delay: 0.75s;"></div>
-                <div class="ray" style="transform: rotate(180deg); animation-delay: 1s;"></div>
-                <div class="ray" style="transform: rotate(225deg); animation-delay: 1.25s;"></div>
-                <div class="ray" style="transform: rotate(270deg); animation-delay: 1.5s;"></div>
-                <div class="ray" style="transform: rotate(315deg); animation-delay: 1.75s;"></div>
-              </div>
-              <div class="lock-3d">
-                <div class="lock-shackle-3d"></div>
-                <div class="lock-body-3d">🔓</div>
+              <!-- REAL IMAGE: Encryption Threat -->
+              <div class="quantum-image-container warning-shake" id="imageContainer4">
+                <img src="images/quantum-slides/slide_04_encryption.png" alt="Encryption Threat - Cybersecurity Danger" class="quantum-slide-image" loading="lazy">
+                <div class="image-overlay warning-overlay"></div>
+                <div class="image-glow red-glow"></div>
               </div>
             </div>
           </div>
@@ -3383,12 +3603,11 @@
         <div class="horizon-slide" data-slide="5">
           <div class="slide-content warning">
             <div class="slide-visual slide-singularity scene-3d">
-              <!-- 3D Brain with Neural Network -->
-              <div class="brain-3d" id="brain3D">
-                <div class="quantum-field-3d"></div>
-                <div class="brain-core-3d">
-                  <div class="neural-network" id="neuralNetwork"></div>
-                </div>
+              <!-- REAL IMAGE: AI Singularity -->
+              <div class="quantum-image-container pulse-glow" id="imageContainer5">
+                <img src="images/quantum-slides/slide_05_singularity.png" alt="AI Quantum Singularity - Future of Intelligence" class="quantum-slide-image" loading="lazy">
+                <div class="image-overlay singularity-overlay"></div>
+                <div class="image-glow purple-glow"></div>
               </div>
             </div>
             <div class="slide-text">
@@ -3409,16 +3628,19 @@
         <div class="horizon-slide" data-slide="6">
           <div class="slide-content final">
             <div class="final-visual">
+              <!-- REAL IMAGE: Path Choice/Journey -->
+              <div class="quantum-image-container journey-fade" id="imageContainer6" style="max-width: 400px; margin: 0 auto 20px;">
+                <img src="images/quantum-slides/slide_06_journey.png" alt="Your Quantum Journey - The Choice is Yours" class="quantum-slide-image" loading="lazy" style="border-radius: 20px;">
+                <div class="image-overlay journey-overlay"></div>
+              </div>
               <div class="path-choice-3d">
                 <div class="path-3d path-light-3d">
                   <span class="path-icon-3d">✨</span>
                   <span class="path-text-3d" style="color: #10B981;">Hope</span>
-                  <div style="font-size: 12px; color: rgba(16, 185, 129, 0.7); text-align: center;">Medical breakthroughs<br>Climate solutions<br>Human advancement</div>
                 </div>
                 <div class="path-3d path-dark-3d">
                   <span class="path-icon-3d">⚡</span>
                   <span class="path-text-3d" style="color: #ef4444;">Risk</span>
-                  <div style="font-size: 12px; color: rgba(239, 68, 68, 0.7); text-align: center;">Encryption collapse<br>AI singularity<br>Inequality divide</div>
                 </div>
               </div>
               <div class="choice-question" style="margin-top: 30px;">Which path will humanity choose?</div>
