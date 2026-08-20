@@ -1041,6 +1041,66 @@
       transform: scale(1.05);
     }
     
+    /* Narration Button Special Styling */
+    .narration-btn {
+      background: rgba(124, 58, 237, 0.15);
+      border-color: rgba(124, 58, 237, 0.4);
+      color: var(--quantum-secondary);
+    }
+    
+    .narration-btn:hover {
+      background: rgba(124, 58, 237, 0.25);
+      border-color: rgba(124, 58, 237, 0.6);
+    }
+    
+    .narration-btn.active {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: rgba(16, 185, 129, 0.5);
+      color: var(--quantum-green);
+    }
+    
+    .narration-btn.muted {
+      background: rgba(239, 68, 68, 0.1);
+      border-color: rgba(239, 68, 68, 0.3);
+      color: #ef4444;
+      opacity: 0.7;
+    }
+    
+    /* Audio Visual Indicator */
+    .audio-indicator {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+      padding: 4px 10px;
+      background: rgba(16, 185, 129, 0.1);
+      border-radius: 12px;
+      margin-left: 8px;
+    }
+    
+    .audio-bar {
+      width: 3px;
+      height: 12px;
+      background: var(--quantum-green);
+      border-radius: 2px;
+      animation: audioWave 0.5s ease-in-out infinite;
+    }
+    
+    .audio-bar:nth-child(1) { animation-delay: 0s; height: 8px; }
+    .audio-bar:nth-child(2) { animation-delay: 0.15s; height: 14px; }
+    .audio-bar:nth-child(3) { animation-delay: 0.3s; height: 10px; }
+    .audio-bar:nth-child(4) { animation-delay: 0.45s; height: 16px; }
+    
+    @keyframes audioWave {
+      0%, 100% { transform: scaleY(0.5); opacity: 0.5; }
+      50% { transform: scaleY(1); opacity: 1; }
+    }
+    
+    .audio-indicator.paused .audio-bar {
+      animation: none;
+      transform: scaleY(0.5);
+      opacity: 0.4;
+    }
+    
     .horizons-counter {
       font-family: 'JetBrains Mono', monospace;
       color: var(--text-muted);
@@ -2539,9 +2599,36 @@
             <span class="material-icons-round" id="playIcon">play_arrow</span>
             <span id="playText">Auto-Play</span>
           </button>
+          <button id="narrationToggle" onclick="toggleNarration()" class="horizons-btn narration-btn" title="Toggle Narration">
+            <span class="material-icons-round" id="narrationIcon">volume_up</span>
+            <span id="narrationText">Voice ON</span>
+          </button>
           <span class="horizons-counter"><span id="currentSlide">1</span>/6</span>
         </div>
       </div>
+
+      <!-- Hidden Audio Elements for Narration -->
+      <audio id="narrationAudio" preload="auto">
+        <source src="audio-narration/intro.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio1" preload="auto" data-slide="1">
+        <source src="audio-narration/slide_01_era.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio2" preload="auto" data-slide="2">
+        <source src="audio-narration/slide_02_medical.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio3" preload="auto" data-slide="3">
+        <source src="audio-narration/slide_03_climate.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio4" preload="auto" data-slide="4">
+        <source src="audio-narration/slide_04_encryption.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio5" preload="auto" data-slide="5">
+        <source src="audio-narration/slide_05_singularity.wav" type="audio/wav">
+      </audio>
+      <audio id="slideAudio6" preload="auto" data-slide="6">
+        <source src="audio-narration/slide_06_journey.wav" type="audio/wav">
+      </audio>
 
       <!-- Slides Container -->
       <div class="horizons-slides" id="horizonsSlides">
@@ -3613,15 +3700,108 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
     
     // ============================================
     // QUANTUM HORIZONS: Short-Form Experience Controller
-    // Auto-advancing slides like a video
+    // Auto-advancing slides like a video WITH NARRATION
     // ============================================
     
     (function() {
       let currentSlide = 1;
       const totalSlides = 6;
       let isPlaying = false;
+      let isNarrationOn = true; // Narration ON by default
       let autoPlayInterval = null;
+      let currentAudio = null;
       const SLIDE_DURATION = 8000; // 8 seconds per slide (like a short video)
+      
+      // Get all audio elements
+      function getAudioForSlide(slideNum) {
+        return document.getElementById(`slideAudio${slideNum}`);
+      }
+      
+      // Stop any currently playing audio
+      function stopCurrentAudio() {
+        if (currentAudio) {
+          currentAudio.pause();
+          currentAudio.currentTime = 0;
+          currentAudio = null;
+        }
+        // Also stop all other audio elements
+        for (let i = 1; i <= totalSlides; i++) {
+          const audio = getAudioForSlide(i);
+          if (audio && !audio.paused) {
+            audio.pause();
+            audio.currentTime = 0;
+          }
+        }
+      }
+      
+      // Play audio for specific slide
+      function playSlideAudio(slideNum) {
+        if (!isNarrationOn) return;
+        
+        stopCurrentAudio();
+        
+        const audio = getAudioForSlide(slideNum);
+        if (audio) {
+          currentAudio = audio;
+          audio.currentTime = 0;
+          audio.play().catch(e => {
+            console.log('Audio playback requires user interaction:', e);
+          });
+          
+          // Update audio indicator
+          updateAudioIndicator(true);
+          
+          // When audio ends, keep indicator active until next action
+          audio.onended = () => {
+            updateAudioIndicator(false);
+          };
+        }
+      }
+      
+      // Update visual audio indicator
+      function updateAudioIndicator(isActive) {
+        const narrationBtn = document.getElementById('narrationToggle');
+        if (narrationBtn) {
+          if (isActive && isNarrationOn) {
+            narrationBtn.classList.add('active');
+          } else {
+            narrationBtn.classList.remove('active');
+          }
+        }
+      }
+      
+      // Toggle narration on/off
+      window.toggleNarration = function() {
+        isNarrationOn = !isNarrationOn;
+        
+        const narrationIcon = document.getElementById('narrationIcon');
+        const narrationText = document.getElementById('narrationText');
+        const narrationBtn = document.getElementById('narrationToggle');
+        
+        if (isNarrationOn) {
+          // Turn narration ON
+          if (narrationIcon) narrationIcon.textContent = 'volume_up';
+          if (narrationText) narrationText.textContent = 'Voice ON';
+          if (narrationBtn) narrationBtn.classList.remove('muted');
+          
+          // Play audio for current slide
+          if (currentSlide) {
+            playSlideAudio(currentSlide);
+          }
+        } else {
+          // Turn narration OFF
+          if (narrationIcon) narrationIcon.textContent = 'volume_off';
+          if (narrationText) narrationText.textContent = 'Voice OFF';
+          if (narrationBtn) narrationBtn.classList.add('muted');
+          
+          // Stop any playing audio
+          stopCurrentAudio();
+          updateAudioIndicator(false);
+        }
+        
+        console.log(`%c[SciMSPT] Narration ${isNarrationOn ? 'ON' : 'OFF'}`, 
+          isNarrationOn ? 'color: #10b981;' : 'color: #ef4444;');
+      };
       
       function updateSlide(slideNum) {
         // Update slides
@@ -3651,6 +3831,11 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
           dot.classList.toggle('active', index === slideNum - 1);
         });
         
+        // Play narration for this slide
+        if (slideNum !== currentSlide) {
+          playSlideAudio(slideNum);
+        }
+        
         currentSlide = slideNum;
       }
       
@@ -3676,6 +3861,11 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         const playText = document.getElementById('playText');
         if (playIcon) playIcon.textContent = 'pause';
         if (playText) playText.textContent = 'Pause';
+        
+        // Start narration for first/current slide
+        if (isNarrationOn && currentSlide) {
+          playSlideAudio(currentSlide);
+        }
       }
       
       function stopAutoPlay() {
@@ -3690,6 +3880,9 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         const playText = document.getElementById('playText');
         if (playIcon) playIcon.textContent = 'play_arrow';
         if (playText) playText.textContent = 'Auto-Play';
+        
+        // Don't stop audio when pausing - let it continue
+        // User can toggle narration off separately if desired
       }
       
       // Expose functions globally
@@ -3703,7 +3896,7 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       
       window.goToSlide = function(slideNum) {
         updateSlide(slideNum);
-        // If user manually navigates, pause autoplay
+        // If user manually navigates, pause autoplay but keep audio
         if (isPlaying) {
           stopAutoPlay();
         }
@@ -3712,6 +3905,12 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       // Initialize on page load
       document.addEventListener('DOMContentLoaded', () => {
         updateSlide(1);
+        
+        // Set initial narration state
+        const narrationBtn = document.getElementById('narrationToggle');
+        if (narrationBtn && isNarrationOn) {
+          narrationBtn.classList.add('active');
+        }
         
         // Optional: Auto-start after 2 seconds delay for dramatic effect
         setTimeout(() => {
@@ -3733,11 +3932,16 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         } else if (e.key === ' ') {
           e.preventDefault();
           toggleHorizons();
+        } else if (e.key === 'm' || e.key === 'M') {
+          // M key toggles narration
+          toggleNarration();
         }
       });
       
-      console.log('%c[SciMSPT] Quantum Horizons: Short-Form Experience Initialized ✓', 
+      console.log('%c[SciMSPT] Quantum Horizons: Short-Form Experience With Narration Initialized ✓', 
         'color: #a78bfa; font-weight: bold;');
+      console.log('%c[SciMSPT] Press M to toggle narration | SPACE to play/pause', 
+        'color: #6b7280; font-size: 12px;');
     })();
   </script>
 </body>
