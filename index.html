@@ -4988,8 +4988,12 @@
         window.scimspt_device_info = info;
       },
       
-      // Create Smart Mobile Banner
+      // Create Smart Mobile Banner - DISABLED (removed per user request)
       createMobileBanner() {
+        return; // Popup disabled - user requested removal
+        
+        // Original code below is now unreachable
+        /*
         if (!this.device.isMobile && !this.device.isTouchDevice) return;
         
         const banner = document.createElement('div');
@@ -5260,8 +5264,12 @@
         });
       },
       
-      // Show Install Prompt
+      // Show Install Prompt - DISABLED (removed per user request)
       showInstallPrompt(prompt) {
+        return; // Popup disabled - user requested removal
+        
+        // Original code below is now unreachable
+        /*
         const existingPrompt = document.querySelector('.pwa-install-prompt');
         if (existingPrompt) return;
         
@@ -5324,11 +5332,12 @@
       }
     };
     
-    // Initialize on DOM ready
+    // Initialize on DOM ready - DISABLED (mobile detection popups removed)
+    // MobileDetection.init() disabled - popup removed per user request
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => MobileDetection.init());
+      document.addEventListener('DOMContentLoaded', () => {/* MobileDetection.init() - DISABLED */});
     } else {
-      MobileDetection.init();
+      /* MobileDetection.init() - DISABLED */
     }
     
     // Expose globally for inline handlers
