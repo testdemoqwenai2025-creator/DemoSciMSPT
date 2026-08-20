@@ -3401,7 +3401,7 @@
        ============================================ -->
   <section class="section quantum-horizons-section" id="quantum-horizons">
     
-    <!-- Audio Initialization Overlay (Browser Autoplay Fix) -->
+    <!-- Start Experience Overlay (No Audio Required) -->
     <div class="audio-init-overlay" id="audioInitOverlay">
       <div class="qubit-sphere" style="transform: scale(0.6); margin-bottom: 30px;">
         <div class="sphere-core"></div>
@@ -3410,12 +3410,12 @@
         <div class="sphere-ring ring-orbit"></div>
       </div>
       <h2 class="audio-init-title">🌌 Quantum Horizons</h2>
-      <p class="audio-init-subtitle">Experience quantum computing's future with professional narration and stunning 3D visualizations</p>
+      <p class="audio-init-subtitle">Experience quantum computing's future with stunning 3D visualizations</p>
       <button class="audio-init-btn" onclick="initAudioAndStart()">
         <span class="material-icons-round">play_circle_filled</span>
-        Start Experience with Sound
+        Start Experience
       </button>
-      <p style="color: #6b7280; font-size: 12px; margin-top: 16px;">Click to enable audio playback</p>
+      <p style="color: #6b7280; font-size: 12px; margin-top: 16px;">Click to begin • Voice is OFF by default</p>
     </div>
     
     <div class="horizons-container">
@@ -3437,9 +3437,9 @@
             <span class="material-icons-round" id="playIcon">play_arrow</span>
             <span id="playText">Auto-Play</span>
           </button>
-          <button id="narrationToggle" onclick="toggleNarration()" class="horizons-btn narration-btn" title="Toggle Narration">
-            <span class="material-icons-round" id="narrationIcon">volume_up</span>
-            <span id="narrationText">Voice ON</span>
+          <button id="narrationToggle" onclick="toggleNarration()" class="horizons-btn narration-btn muted" title="Toggle Narration">
+            <span class="material-icons-round" id="narrationIcon">volume_off</span>
+            <span id="narrationText">Voice OFF</span>
           </button>
           <span class="horizons-counter"><span id="currentSlide">1</span>/6</span>
         </div>
@@ -4603,10 +4603,10 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       let currentSlide = 1;
       const totalSlides = 6;
       let isPlaying = false;
-      let isNarrationOn = true; // Narration ON by default
+      let isNarrationOn = false; // Narration OFF by default (user can enable)
       let autoPlayTimeout = null;
       let currentAudio = null;
-      let useAudioSyncMode = true; // Sync slides with audio duration
+      let useAudioSyncMode = false; // Use timed mode (no audio sync)
       
       // Get all audio elements
       function getAudioForSlide(slideNum) {
