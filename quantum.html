@@ -1856,19 +1856,34 @@
       </div>
       
       <div class="video-wrapper">
-        <div class="video-player">
+        <div class="video-player" id="videoPlayerContainer">
+          <!-- YouTube Embed (Reliable Playback) -->
+          <div id="youtubeContainer" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 16px; background: var(--bg-deep);">
+            <iframe
+              id="youtubeVideo"
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 16px;"
+              src="https://www.youtube.com/embed/Oh43E7OZUFY?enablejsapi=1&controls=1&rel=0&modestbranding=1"
+              title="Quantum Computing Future Possibilities"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          
+          <!-- Fallback Local Video (if YouTube blocked) -->
           <video 
             id="quantumExplainer" 
             controls 
             preload="metadata"
+            style="display: none; width: 100%; border-radius: 16px;"
             poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 540'%3E%3Crect fill='%230a1628' width='960' height='540'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%2300E5FF' font-family='sans-serif' font-size='24'%3ESciMSPT Quantum%3C/text%3E%3C/svg%3E"
           >
             <source src="video-clips/quantum_explainer.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           
-          <!-- Custom Play Button Overlay -->
-          <div class="video-overlay" id="videoOverlay">
+          <!-- Custom Play Button Overlay (for fallback video) -->
+          <div class="video-overlay" id="videoOverlay" style="display: none;">
             <button class="play-button" onclick="playVideo()" aria-label="Play video">
               <span class="material-icons-round">play_circle_filled</span>
               <span class="play-text">Watch Explainer (24s)</span>
@@ -1878,29 +1893,29 @@
         
         <!-- Video Info Panel -->
         <div class="video-info">
-          <h3 class="video-title">Quantum Chemistry Simulation Overview</h3>
+          <h3 class="video-title">🌌 Quantum Horizons: Future Possibilities</h3>
           <p class="video-description">
-            This brief narration walks you through the key capabilities of SciMSPT Quantum, 
-            including our unified interface to multiple quantum platforms, the browser-based IDE workspace, 
-            and real-world applications in drug discovery and materials science.
+            Explore the transformative potential of quantum computing and its profound implications 
+            for humanity. From medical breakthroughs to existential challenges - what does our 
+            quantum future hold?
           </p>
           
           <div class="video-highlights">
             <div class="highlight-item">
+              <span class="material-icons-round">healing</span>
+              <span>Curing diseases in hours</span>
+            </div>
+            <div class="highlight-item">
+              <span class="material-icons-round">public</span>
+              <span>Climate reversal solutions</span>
+            </div>
+            <div class="highlight-item">
               <span class="material-icons-round">psychology</span>
-              <span>Unified quantum platform access</span>
+              <span>Consciousness exploration</span>
             </div>
             <div class="highlight-item">
-              <span class="material-icons-round">code</span>
-              <span>Browser-based IDE workspace</span>
-            </div>
-            <div class="highlight-item">
-              <span class="material-icons-round">science</span>
-              <span>VQE & QAOA algorithms</span>
-            </div>
-            <div class="highlight-item">
-              <span class="material-icons-round">timer</span>
-              <span>24-second overview</span>
+              <span class="material-icons-round">warning</span>
+              <span>Humanity's quantum challenges</span>
             </div>
           </div>
           
@@ -2730,37 +2745,40 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
     // ============================================
     
     function playVideo() {
+      const youtubeContainer = document.getElementById('youtubeContainer');
       const video = document.getElementById('quantumExplainer');
       const overlay = document.getElementById('videoOverlay');
       
+      // Primary: YouTube should be showing by default
+      if (youtubeContainer && youtubeContainer.style.display !== 'none') {
+        console.log('YouTube video is active - use YouTube controls');
+        return;
+      }
+      
+      // Fallback: Play local video
       if (video) {
-        // Try to play with error handling
         const playPromise = video.play();
         
         if (playPromise !== undefined) {
           playPromise.then(() => {
-            // Playback started successfully
-            if (overlay) {
-              overlay.classList.add('hidden');
-            }
+            if (overlay) overlay.classList.add('hidden');
           }).catch(error => {
-            // Autoplay was prevented, show controls instead
             console.log('Video playback requires user interaction:', error);
             video.controls = true;
-            if (overlay) {
-              overlay.classList.add('hidden');
-            }
-            // Show message to user
-            alert('Click the video play button in the video player controls to start playback.');
+            if (overlay) overlay.classList.add('hidden');
           });
         } else {
-          // Older browser, just try playing
           video.play();
-          if (overlay) {
-            overlay.classList.add('hidden');
-          }
+          if (overlay) overlay.classList.add('hidden');
         }
       }
+    }
+    
+    // Initialize video player on page load
+    function initVideoPlayer() {
+      console.log('Initializing video player...');
+      // YouTube is shown by default - no action needed
+      // Fallback video is hidden until needed
     }
     
     // Hide overlay when video plays natively (e.g., clicking native controls)
