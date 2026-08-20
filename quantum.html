@@ -4604,9 +4604,9 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       const totalSlides = 6;
       let isPlaying = false;
       let isNarrationOn = true; // Narration ON by default
-      let autoPlayInterval = null;
+      let autoPlayTimeout = null;
       let currentAudio = null;
-      const SLIDE_DURATION = 8000; // 8 seconds per slide (like a short video)
+      let useAudioSyncMode = true; // Sync slides with audio duration
       
       // Get all audio elements
       function getAudioForSlide(slideNum) {
@@ -4641,15 +4641,42 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
           currentAudio = audio;
           audio.currentTime = 0;
           audio.play().then(() => {
-            console.log(`%c[SciMSPT] Playing narration for Slide ${slideNum}`, 'color: #10b981;');
+            console.log(`%c[SciMSPT] Playing narration for Slide ${slideNum} (duration: ~${Math.round(audio.duration)}s)`, 'color: #10b981;');
             updateAudioIndicator(true);
+            
+            // AUTO-ADVANCE: When audio finishes, go to next slide
+            if (useAudioSyncMode && isPlaying) {
+              // Clear any existing timeout
+              if (autoPlayTimeout) {
+                clearTimeout(autoPlayTimeout);
+              }
+              // Schedule next slide when audio ends
+              autoPlayTimeout = setTimeout(() => {
+                console.log(`%c[SciMSPT] Audio ended - advancing to next slide`, 'color: #10b981;');
+                if (currentSlide < totalSlides) {
+                  updateSlide(currentSlide + 1);
+                } else {
+                  // Loop back or stop at end
+                  updateSlide(1); // Loop to beginning
+                }
+              }, audio.duration * 1000 - 500); // Slightly before exact end for smooth transition
+            }
           }).catch(e => {
             console.log('Audio playback error:', e);
+            // Fallback to timed advance if audio fails
+            if (useAudioSyncMode && isPlaying) {
+              autoPlayTimeout = setTimeout(() => {
+                if (currentSlide < totalSlides) {
+                  updateSlide(currentSlide + 1);
+                }
+              }, 8000); // Fallback 8 seconds
+            }
           });
           
-          // When audio ends, update indicator
+          // When audio ends, update indicator and optionally advance
           audio.onended = () => {
             updateAudioIndicator(false);
+            console.log(`%c[SciMSPT] Slide ${slideNum} audio finished`, 'color: #10b981;');
           };
         }
       }
@@ -4736,10 +4763,11 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       }
       
       function nextSlide() {
+        // This is now called by audio onended handler primarily
         if (currentSlide < totalSlides) {
           updateSlide(currentSlide + 1);
         } else {
-          // Loop back to beginning or stop
+          // Loop back to beginning
           if (isPlaying) {
             updateSlide(1); // Loop
           } else {
@@ -4750,7 +4778,6 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
       
       function startAutoPlay() {
         isPlaying = true;
-        autoPlayInterval = setInterval(nextSlide, SLIDE_DURATION);
         
         // Update button
         const playIcon = document.getElementById('playIcon');
@@ -4758,17 +4785,34 @@ print(f"Optimal Parameters: {result.optimal_parameters}")</textarea>
         if (playIcon) playIcon.textContent = 'pause';
         if (playText) playText.textContent = 'Pause';
         
-        // Start narration for first/current slide
+        // Start narration for first/current slide (this will trigger auto-advance when audio ends)
         if (isNarrationOn && currentSlide && audioInitialized) {
           playSlideAudio(currentSlide);
+        } else if (!isNarrationOn) {
+          // If narration off, use timed fallback
+          scheduleNextSlideTimed();
         }
+      }
+      
+      // Fallback: Timed slide advancement (when no audio or narration off)
+      function scheduleNextSlideTimed() {
+        if (autoPlayTimeout) {
+          clearTimeout(autoPlayTimeout);
+        }
+        autoPlayTimeout = setTimeout(() => {
+          if (isPlaying && currentSlide < totalSlides) {
+            updateSlide(currentSlide + 1);
+          } else if (isPlaying && currentSlide === totalSlides) {
+            updateSlide(1); // Loop
+          }
+        }, 8000); // 8 second fallback
       }
       
       function stopAutoPlay() {
         isPlaying = false;
-        if (autoPlayInterval) {
-          clearInterval(autoPlayInterval);
-          autoPlayInterval = null;
+        if (autoPlayTimeout) {
+          clearTimeout(autoPlayTimeout);
+          autoPlayTimeout = null;
         }
         
         // Update button
